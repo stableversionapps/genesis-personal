@@ -3,33 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ — Genesis</title>
+    <title>FAQ & Privacy — Genesis Essential Assistant</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="antialiased text-slate-900 bg-gray-50">
     <nav class="p-6 bg-white border-b">
         <div class="max-w-6xl mx-auto flex items-center justify-between">
-            <a href="index.html" class="text-2xl font-bold text-primary">Genesis</a>
+            <a href="index.html" class="text-2xl font-bold text-blue-600">Genesis</a>
         </div>
     </nav>
-
     <main class="max-w-4xl mx-auto p-8">
-        <h1 class="text-3xl font-bold mb-4">Frequently Asked Questions</h1>
+        <h1 class="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
         <div class="space-y-4">
-            <details class="bg-white p-4 rounded shadow">
-                <summary class="font-semibold">How do I add my bank account?</summary>
-                <p class="text-slate-600 mt-2">Follow the onboarding flow and choose your bank from the list. Use secure OAuth where available.</p>
+
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How does Genesis Essential Assistant use my data?</summary>
+                <p class="text-slate-600 mt-2">
+                    Genesis only collects data essential for providing productivity tools, like account information and preferences. We will never sell your data or use it for advertising.
+                </p>
+            </details>
+            
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Is my data encrypted?</summary>
+                <p class="text-slate-600 mt-2">
+                    Yes. All data is encrypted in transit (HTTPS/TLS) and at rest. For sensitive information, advanced encryption standards are used.
+                </p>
+            </details>
+            
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Where is my data stored?</summary>
+                <p class="text-slate-600 mt-2">
+                    Your data is stored on secure, cloud-based servers located in the regions specified in our <a class="text-blue-500 underline" href="privacy.html">Privacy Policy</a>. We comply with data residency laws where required.
+                </p>
             </details>
 
-            <details class="bg-white p-4 rounded shadow">
-                <summary class="font-semibold">How is my data protected?</summary>
-                <p class="text-slate-600 mt-2">We use industry-standard encryption and offer biometric login options.</p>
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Does Genesis share my data with third parties?</summary>
+                <p class="text-slate-600 mt-2">
+                    Genesis does not sell your data. We only share data with third-party services necessary to deliver specific app features (like syncing with calendar providers), and only after your explicit consent.
+                </p>
+            </details>
+
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Can I export or delete my data?</summary>
+                <p class="text-slate-600 mt-2">
+                    Absolutely. You can export your data at any time from your account settings. To delete your data, please visit account settings or contact <a class="text-blue-500 underline" href="mailto:support@genesisapp.com">support@genesisapp.com</a>.
+                </p>
+            </details>
+
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How can I delete my Genesis account?</summary>
+                <p class="text-slate-600 mt-2">
+                    You can delete your account at any time by going to <strong>Settings &gt; Account</strong> and clicking <strong>Delete Account</strong>. This will permanently remove your personal data from our servers within 30 days. If you need help, contact <a class="text-blue-500 underline" href="mailto:support@genesisapp.com">support@genesisapp.com</a>.
+                </p>
+            </details>
+            
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How do I control notifications and privacy settings?</summary>
+                <p class="text-slate-600 mt-2">
+                    You have full control over your notification and privacy preferences in the app. Go to <strong>Settings &gt; Privacy</strong> to update your choices at any time.
+                </p>
+            </details>
+
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">What happens if I connect an integration (like Google Calendar)?</summary>
+                <p class="text-slate-600 mt-2">
+                    Genesis will only access data required to enable the integration's features. We do not store third-party credentials, and you can disconnect integrations at any time.
+                </p>
+            </details>
+
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Who can see my information?</summary>
+                <p class="text-slate-600 mt-2">
+                    Only you (and, for collaborative features, people you explicitly invite) can access your private content. Our staff can access your data only in order to provide support, and only with your consent.
+                </p>
+            </details>
+
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Do you use cookies or tracking technologies?</summary>
+                <p class="text-slate-600 mt-2">
+                    We use only essential cookies to keep you signed in and to deliver core functionality. We do not use third-party analytics or ad trackers.
+                </p>
             </details>
         </div>
+        <div class="mt-10 text-slate-700">
+            <p>
+                Need more info? Read our
+                <a class="text-blue-500 underline" href="privacy.html">Privacy Policy</a>,
+                or contact <a class="text-blue-500 underline" href="mailto:support@genesisapp.com">support@genesisapp.com</a>.
+            </p>
+        </div>
     </main>
-
     <footer class="border-t p-6 text-center text-sm text-slate-500">
-        © 2025 Genesis. All rights reserved.
+        © 2026 Genesis. All rights reserved.
     </footer>
 </body>
 </html>

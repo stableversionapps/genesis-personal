@@ -16,73 +16,224 @@
         <h1 class="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
         <div class="space-y-4">
 
+            <!-- Privacy & Data Handling -->
             <details class="bg-white p-4 rounded shadow group">
-                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How does Genesis Essential Assistant use my data?</summary>
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How does Genesis handle my data?</summary>
                 <p class="text-slate-600 mt-2">
-                    Genesis only collects data essential for providing productivity tools, like account information and preferences. We will never sell your data or use it for advertising.
+                    Genesis is built with a <strong>local-first, privacy-first architecture</strong>. ALL your data (notes, tasks, documents, AI conversations, voice recordings) is stored <strong>locally on your device</strong> using encrypted SQLite databases. Your data <strong>never leaves your device</strong> without your explicit consent. There is NO cloud synchronization, NO data collection, and NO tracking.
                 </p>
             </details>
             
             <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Does Genesis work offline?</summary>
+                <p class="text-slate-600 mt-2">
+                    Yes! Genesis is designed to work 100% offline. All features including AI assistant, voice transcription, notes, tasks, reminders, and document management work without an internet connection. AI processing happens entirely on your device using local AI models (Whisper for voice, LLaMA/Qwen for conversation).
+                </p>
+            </details>
+
+            <details class="bg-white p-4 rounded shadow group">
                 <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Is my data encrypted?</summary>
                 <p class="text-slate-600 mt-2">
-                    Yes. All data is encrypted in transit (HTTPS/TLS) and at rest. For sensitive information, advanced encryption standards are used.
+                    Yes. Genesis uses multiple layers of encryption:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li><strong>Database encryption:</strong> SQLite databases can be encrypted using SQLCipher (industry-standard AES-256)</li>
+                        <li><strong>At-rest encryption:</strong> All data is protected by your device's built-in encryption</li>
+                        <li><strong>Secure storage:</strong> Sensitive settings and encryption keys are stored in iOS Keychain / Android Keystore</li>
+                        <li><strong>File encryption:</strong> Media attachments are protected by device-level encryption</li>
+                        <li><strong>Secure deletion:</strong> Deleted data is overwritten (PRAGMA secure_delete = ON)</li>
+                    </ul>
                 </p>
             </details>
             
             <details class="bg-white p-4 rounded shadow group">
                 <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Where is my data stored?</summary>
                 <p class="text-slate-600 mt-2">
-                    Your data is stored on secure, cloud-based servers located in the regions specified in our <a class="text-blue-500 underline" href="privacy.html">Privacy Policy</a>. We comply with data residency laws where required.
+                    Your data is stored <strong>exclusively on your device</strong> in:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li>Encrypted SQLite database (genesis.db) in your app's private storage</li>
+                        <li>Device file system for media attachments (photos, audio, documents)</li>
+                        <li>Secure keychain/keystore for encryption keys and sensitive settings</li>
+                    </ul>
+                    Genesis does NOT use cloud servers, so your data never leaves your physical device. You have complete data sovereignty.
                 </p>
             </details>
 
             <details class="bg-white p-4 rounded shadow group">
                 <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Does Genesis share my data with third parties?</summary>
                 <p class="text-slate-600 mt-2">
-                    Genesis does not sell your data. We only share data with third-party services necessary to deliver specific app features (like syncing with calendar providers), and only after your explicit consent.
+                    <strong>No.</strong> Genesis does not collect, transmit, or share your data with anyone. There are:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li>NO analytics or tracking services</li>
+                        <li>NO third-party APIs for AI processing</li>
+                        <li>NO cloud storage providers</li>
+                        <li>NO advertising networks</li>
+                        <li>NO crash reporting services</li>
+                        <li>NO push notification servers</li>
+                    </ul>
+                    Everything runs locally on your device. If future versions add optional cloud features (e.g., backup), they will be explicitly opt-in with clear disclosure.
+                </p>
+            </details>
+
+            <!-- Security & Privacy Features -->
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How does biometric security work?</summary>
+                <p class="text-slate-600 mt-2">
+                    Genesis supports <strong>biometric authentication</strong> (Face ID, Touch ID, Fingerprint) to protect your data. When enabled:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li>The app requires biometric authentication to unlock</li>
+                        <li>Individual notes can be locked with biometric protection</li>
+                        <li>Biometric credentials are handled by your device's secure enclave (never stored in the app)</li>
+                        <li>You can also set a PIN as an alternative</li>
+                    </ul>
+                    All authentication happens locally - nothing is sent to servers.
                 </p>
             </details>
 
             <details class="bg-white p-4 rounded shadow group">
-                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Can I export or delete my data?</summary>
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">What permissions does Genesis require and why?</summary>
                 <p class="text-slate-600 mt-2">
-                    Absolutely. You can export your data at any time from your account settings. To delete your data, please visit account settings or contact <a class="text-blue-500 underline" href="mailto:support@genesisapp.com">support@genesisapp.com</a>.
+                    Genesis requests only essential permissions for its features:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li><strong>Camera:</strong> For scanning documents and adding photos to notes (stored locally only)</li>
+                        <li><strong>Microphone:</strong> For voice notes and AI voice transcription (processed on-device using Whisper AI)</li>
+                        <li><strong>Location:</strong> For location-based reminders and geofencing (data stored locally, no tracking)</li>
+                        <li><strong>Storage:</strong> For reading/saving document attachments (no scanning, only files you select)</li>
+                        <li><strong>Notifications:</strong> For reminder alerts (generated locally, no push servers)</li>
+                    </ul>
+                    All permissions are used exclusively for local processing. No data is transmitted to external servers.
+                </p>
+            </details>
+
+            <!-- AI & Machine Learning -->
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How does the AI assistant work? Is it private?</summary>
+                <p class="text-slate-600 mt-2">
+                    Genesis uses <strong>100% on-device AI models</strong> - all processing happens locally:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li><strong>Voice transcription:</strong> OpenAI Whisper (open-source) runs locally - audio never leaves your device</li>
+                        <li><strong>AI conversations:</strong> LLaMA, Qwen, or SmolLM models run locally - no cloud API calls</li>
+                        <li><strong>Conversation history:</strong> Stored only in your local database</li>
+                        <li><strong>No internet required:</strong> AI works completely offline</li>
+                    </ul>
+                    Your conversations and voice recordings are private and never transmitted to any server.
+                </p>
+            </details>
+
+            <!-- Data Management -->
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Can I export or backup my data?</summary>
+                <p class="text-slate-600 mt-2">
+                    Yes! You have full control over your data:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li><strong>Export:</strong> Export notes, tasks, and documents through in-app export features</li>
+                        <li><strong>Backup:</strong> Your data is stored in standard SQLite format - you can backup the entire database file</li>
+                        <li><strong>Data portability:</strong> All data can be exported in standard formats (JSON, CSV, SQL)</li>
+                        <li><strong>No vendor lock-in:</strong> Your data is in open formats that can be read by other tools</li>
+                    </ul>
                 </p>
             </details>
 
             <details class="bg-white p-4 rounded shadow group">
-                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How can I delete my Genesis account?</summary>
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How do I delete my data?</summary>
                 <p class="text-slate-600 mt-2">
-                    You can delete your account at any time by going to <strong>Settings &gt; Account</strong> and clicking <strong>Delete Account</strong>. This will permanently remove your personal data from our servers within 30 days. If you need help, contact <a class="text-blue-500 underline" href="mailto:support@genesisapp.com">support@genesisapp.com</a>.
+                    You have complete control over data deletion:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li><strong>Delete individual items:</strong> Delete notes, tasks, or conversations anytime through the app</li>
+                        <li><strong>Clear all data:</strong> Use "Clear All Data" in app settings to remove everything</li>
+                        <li><strong>Uninstall app:</strong> Uninstalling Genesis completely removes all local data from your device</li>
+                        <li><strong>Secure deletion:</strong> Deleted data is overwritten for security (cannot be recovered)</li>
+                    </ul>
+                    Since Genesis stores everything locally with no cloud backups, deletion is immediate and permanent.
                 </p>
             </details>
-            
+
+            <!-- Technical & Security -->
             <details class="bg-white p-4 rounded shadow group">
-                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How do I control notifications and privacy settings?</summary>
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">What database technology does Genesis use?</summary>
                 <p class="text-slate-600 mt-2">
-                    You have full control over your notification and privacy preferences in the app. Go to <strong>Settings &gt; Privacy</strong> to update your choices at any time.
+                    Genesis uses <strong>SQLite</strong> - the most widely used database engine in the world. Security features:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li><strong>WAL mode:</strong> Write-Ahead Logging for concurrent access and crash resistance</li>
+                        <li><strong>Foreign key constraints:</strong> Ensures data integrity</li>
+                        <li><strong>Prepared statements:</strong> Prevents SQL injection attacks</li>
+                        <li><strong>SQLCipher support:</strong> Optional AES-256 database encryption</li>
+                        <li><strong>Optimized indexes:</strong> Fast query performance</li>
+                        <li><strong>Auto-vacuum:</strong> Automatic disk space management</li>
+                    </ul>
                 </p>
             </details>
 
             <details class="bg-white p-4 rounded shadow group">
-                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">What happens if I connect an integration (like Google Calendar)?</summary>
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Is Genesis compliant with privacy regulations (GDPR, CCPA)?</summary>
                 <p class="text-slate-600 mt-2">
-                    Genesis will only access data required to enable the integration's features. We do not store third-party credentials, and you can disconnect integrations at any time.
+                    <strong>Yes.</strong> Genesis complies with major privacy regulations through its local-first design:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li><strong>GDPR (EU):</strong> Complete data sovereignty - you control all data locally, right to erasure respected</li>
+                        <li><strong>CCPA (California):</strong> No data sale or sharing with third parties</li>
+                        <li><strong>DPDPA (India):</strong> Local-first ensures data residency and sovereignty</li>
+                        <li><strong>Children's privacy:</strong> No data collection from children, compliant with COPPA/similar laws</li>
+                    </ul>
+                    Since Genesis doesn't collect or transmit data, it exceeds most privacy requirements by default.
+                </p>
+            </details>
+
+            <!-- Support & Legal -->
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">What happens if I have a data loss or bug?</summary>
+                <p class="text-slate-600 mt-2">
+                    <strong>Important:</strong> Genesis is provided "AS IS" without warranty. The developer (StableVersionApps) is not liable for:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li>Data loss due to device failure, user error, or software bugs</li>
+                        <li>Incorrect AI outputs or transcription errors</li>
+                        <li>Missed reminders or notification failures</li>
+                    </ul>
+                    <strong>Best practices:</strong>
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li>Regularly export/backup important data</li>
+                        <li>Keep your device's OS updated for security patches</li>
+                        <li>Report bugs on GitHub for community support</li>
+                    </ul>
+                    You use Genesis at your own risk and are responsible for maintaining backups.
                 </p>
             </details>
 
             <details class="bg-white p-4 rounded shadow group">
-                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Who can see my information?</summary>
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Is Genesis open source?</summary>
                 <p class="text-slate-600 mt-2">
-                    Only you (and, for collaborative features, people you explicitly invite) can access your private content. Our staff can access your data only in order to provide support, and only with your consent.
+                    Genesis uses open-source technologies for transparency:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li>React Native / Expo (UI framework)</li>
+                        <li>Whisper AI (voice transcription)</li>
+                        <li>LLaMA/Qwen (AI models)</li>
+                        <li>SQLite/SQLCipher (database)</li>
+                    </ul>
+                    Source code may be made available for audit and transparency (subject to licensing). Visit our <a class="text-blue-500 underline" href="https://github.com/stableversionapps/genesis-essential-assistant">GitHub repository</a> for updates.
                 </p>
             </details>
 
             <details class="bg-white p-4 rounded shadow group">
-                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Do you use cookies or tracking technologies?</summary>
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">How do I contact support?</summary>
                 <p class="text-slate-600 mt-2">
-                    We use only essential cookies to keep you signed in and to deliver core functionality. We do not use third-party analytics or ad trackers.
+                    For questions, bug reports, or feature requests:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li><strong>Email:</strong> <a class="text-blue-500 underline" href="mailto:stableversionapps@gmail.com">stableversionapps@gmail.com</a></li>
+                        <li><strong>GitHub Issues:</strong> <a class="text-blue-500 underline" href="https://github.com/stableversionapps/genesis-essential-assistant/issues">Report bugs and request features</a></li>
+                        <li><strong>Website:</strong> <a class="text-blue-500 underline" href="https://stableversionapps.github.io/genesis-personal/">stableversionapps.github.io/genesis-personal</a></li>
+                    </ul>
+                </p>
+            </details>
+
+            <details class="bg-white p-4 rounded shadow group">
+                <summary class="font-semibold cursor-pointer group-hover:text-blue-600">Will Genesis ever use cloud services?</summary>
+                <p class="text-slate-600 mt-2">
+                    Currently, Genesis operates 100% locally with NO cloud services. If future versions add <strong>optional</strong> cloud features (e.g., cloud backup, cloud AI), they will:
+                    <ul class="list-disc ml-6 mt-2 space-y-1">
+                        <li>Be <strong>explicitly opt-in</strong> - never enabled by default</li>
+                        <li>Include <strong>clear disclosure</strong> of what data is transmitted</li>
+                        <li>Allow you to <strong>continue using the app without</strong> these features</li>
+                        <li>Be documented in an <strong>updated Privacy Policy</strong></li>
+                    </ul>
+                    The core app will always support local-only operation.
                 </p>
             </details>
         </div>
@@ -90,7 +241,11 @@
             <p>
                 Need more info? Read our
                 <a class="text-blue-500 underline" href="privacy.html">Privacy Policy</a>,
-                or contact <a class="text-blue-500 underline" href="mailto:support@genesisapp.com">support@genesisapp.com</a>.
+                or contact <a class="text-blue-500 underline" href="mailto:stableversionapps@gmail.com">stableversionapps@gmail.com</a>.
+            </p>
+            <p class="mt-4 text-sm text-slate-500">
+                <strong>Last Updated:</strong> January 11, 2026<br>
+                <strong>Effective Date:</strong> December 14, 2025
             </p>
         </div>
     </main>

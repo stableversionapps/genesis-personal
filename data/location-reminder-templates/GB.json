@@ -1,0 +1,224 @@
+{
+  "regionCode": "GB",
+  "regionName": "United Kingdom",
+  "flag": "🇬🇧",
+  "seasonalNotes": "Mild wet climate year-round. Rain likely any day — always carry an umbrella. Short daylight in winter (4 PM sunset Dec). Summer evenings long (9 PM sunset Jun).",
+  "personas": [
+    {
+      "id": "gb-london-commuter",
+      "name": "London Work Day",
+      "tagline": "Tube, meetings, and a Tesco run",
+      "description": "Commutes from Clapham to the City via Northern line. Office meetings, Pret lunch, post-work Tesco shop, and Overground home.",
+      "icon": "🇬🇧",
+      "color": "#3B82F6",
+      "city": "London",
+      "origin": { "latitude": 51.4621, "longitude": -0.1386, "address": "Clapham Common, London" },
+      "stops": [
+        {
+          "title": "Grab umbrella + Oyster card",
+          "description": "It will rain. It always rains.",
+          "address": "Home — Clapham",
+          "latitude": 51.4621,
+          "longitude": -0.1386,
+          "radiusMeters": 80,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "☂️",
+          "timeLabel": "7:30 AM"
+        },
+        {
+          "title": "Top up Oyster if under £5",
+          "description": "Check balance at the gate. Top up at machine.",
+          "address": "Clapham Common Tube Station",
+          "latitude": 51.4618,
+          "longitude": -0.1384,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🚇",
+          "timeLabel": "7:45 AM"
+        },
+        {
+          "title": "10 AM client call — prep notes",
+          "description": "Review deck in the lift. Conference room B.",
+          "address": "Office — Bank, City of London",
+          "latitude": 51.5133,
+          "longitude": -0.0886,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏢",
+          "timeLabel": "9:00 AM"
+        },
+        {
+          "title": "Post parcel at Royal Mail",
+          "description": "Return the Amazon parcel. Label printed.",
+          "address": "Post Office, Cheapside",
+          "latitude": 51.5146,
+          "longitude": -0.0935,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "📦",
+          "timeLabel": "12:30 PM"
+        },
+        {
+          "title": "Tesco shop — milk, bread, pasta",
+          "description": "Check Clubcard app for deals.",
+          "address": "Tesco Express, Clapham High St",
+          "latitude": 51.4625,
+          "longitude": -0.1375,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛒",
+          "timeLabel": "6:15 PM"
+        }
+      ]
+    },
+    {
+      "id": "gb-manchester-student",
+      "name": "Manchester Uni Day",
+      "tagline": "Lectures, library, and a chippy tea",
+      "description": "A University of Manchester student: morning lectures, library grind, Arndale Centre errands, and chippy tea near Piccadilly.",
+      "icon": "🎓",
+      "color": "#8B5CF6",
+      "city": "Manchester",
+      "origin": { "latitude": 53.4668, "longitude": -2.2339, "address": "Fallowfield, Manchester" },
+      "stops": [
+        {
+          "title": "Bus pass + laptop charger",
+          "description": "142 bus. Check you've got your student ID too.",
+          "address": "Fallowfield bus stop",
+          "latitude": 53.4488,
+          "longitude": -2.2178,
+          "radiusMeters": 80,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "🚌",
+          "timeLabel": "8:30 AM"
+        },
+        {
+          "title": "9 AM lecture — Roscoe Building",
+          "description": "Thermodynamics. Bring calculator.",
+          "address": "Roscoe Building, University of Manchester",
+          "latitude": 53.4669,
+          "longitude": -2.2341,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "📖",
+          "timeLabel": "8:55 AM"
+        },
+        {
+          "title": "Return overdue library books",
+          "description": "3 books, 2 weeks late. Fines stacking up.",
+          "address": "John Rylands Library, Deansgate",
+          "latitude": 53.4802,
+          "longitude": -2.2486,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "📚",
+          "timeLabel": "12:00 PM"
+        },
+        {
+          "title": "Phone case from Arndale",
+          "description": "Cracked screen protector. Get one from the kiosk.",
+          "address": "Arndale Centre, Manchester",
+          "latitude": 53.4839,
+          "longitude": -2.2393,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "📱",
+          "timeLabel": "2:00 PM"
+        },
+        {
+          "title": "Chippy tea near Piccadilly",
+          "description": "Fish, chips, mushy peas. Eat-in or takeaway.",
+          "address": "Piccadilly Gardens, Manchester",
+          "latitude": 53.4808,
+          "longitude": -2.2368,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🐟",
+          "timeLabel": "5:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "gb-london-daytrip",
+      "name": "London Tourist Day",
+      "tagline": "Big Ben, Borough Market, and the Tate",
+      "description": "Classic London sightseeing: Westminster, Borough Market lunch, Tate Modern, South Bank walk, and evening in Covent Garden.",
+      "icon": "🎡",
+      "color": "#EF4444",
+      "city": "London",
+      "origin": { "latitude": 51.5014, "longitude": -0.1419, "address": "Westminster, London" },
+      "stops": [
+        {
+          "title": "Big Ben + Parliament photos",
+          "description": "Best angle from Westminster Bridge. Go before 9 AM.",
+          "address": "Westminster Bridge, London",
+          "latitude": 51.501,
+          "longitude": -0.1218,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🕰️",
+          "timeLabel": "9:00 AM"
+        },
+        {
+          "title": "Borough Market — get the toastie",
+          "description": "Kappacasein raclette. Queue will be long but worth it.",
+          "address": "Borough Market, Southwark",
+          "latitude": 51.5055,
+          "longitude": -0.091,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🧀",
+          "timeLabel": "11:00 AM"
+        },
+        {
+          "title": "Tate Modern — Turbine Hall",
+          "description": "Free entry. Check what's in the Turbine Hall this month.",
+          "address": "Tate Modern, Bankside",
+          "latitude": 51.5076,
+          "longitude": -0.0994,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🎨",
+          "timeLabel": "1:00 PM"
+        },
+        {
+          "title": "South Bank walk to Westminster",
+          "description": "Book stalls, street performers, river views.",
+          "address": "South Bank, London",
+          "latitude": 51.5065,
+          "longitude": -0.1145,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🚶",
+          "timeLabel": "3:00 PM"
+        },
+        {
+          "title": "Covent Garden — dinner",
+          "description": "Book a table or grab street food in the piazza.",
+          "address": "Covent Garden, London",
+          "latitude": 51.5117,
+          "longitude": -0.1225,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍽️",
+          "timeLabel": "6:00 PM"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "regionCode": "JP",
+  "regionName": "Japan",
+  "flag": "🇯🇵",
+  "seasonalNotes": "Cherry blossom late Mar–Apr. Rainy season (tsuyu) Jun–Jul. Hot humid summers. Typhoon season Aug–Oct. Beautiful autumn foliage Oct–Nov. Cold dry winters.",
+  "personas": [
+    {
+      "id": "jp-tokyo-commute",
+      "name": "Tokyo Office Day",
+      "tagline": "Metro, bento, and izakaya after work",
+      "description": "Commutes from Shibuya to Marunouchi by metro. Bento lunch from the depachika, afternoon meetings, and izakaya with colleagues after work.",
+      "icon": "🗼",
+      "color": "#EF4444",
+      "city": "Tokyo",
+      "origin": { "latitude": 35.6585, "longitude": 139.7013, "address": "Shibuya, Tokyo" },
+      "stops": [
+        {
+          "title": "Folding umbrella — check weather",
+          "description": "Tokyo rain is unpredictable. Always carry one.",
+          "address": "Home — Shibuya",
+          "latitude": 35.6585,
+          "longitude": 139.7013,
+          "radiusMeters": 80,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "☂️",
+          "timeLabel": "7:30 AM"
+        },
+        {
+          "title": "Top up Suica at station",
+          "description": "Balance was ¥340. Top up ¥2000 at the machine.",
+          "address": "Shibuya Station",
+          "latitude": 35.658,
+          "longitude": 139.7016,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🚃",
+          "timeLabel": "7:45 AM"
+        },
+        {
+          "title": "Morning meeting — 5F conference room",
+          "description": "Q3 review. Bring USB backup of slides.",
+          "address": "Marunouchi Building, Chiyoda",
+          "latitude": 35.6812,
+          "longitude": 139.7649,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏢",
+          "timeLabel": "9:00 AM"
+        },
+        {
+          "title": "Bento from depachika",
+          "description": "Daimaru basement. Get the salmon bento before it sells out.",
+          "address": "Daimaru Tokyo, Yaesu",
+          "latitude": 35.6811,
+          "longitude": 139.7704,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍱",
+          "timeLabel": "12:00 PM"
+        },
+        {
+          "title": "Submit monthly report before leaving",
+          "description": "Deadline 6 PM. Send before heading out.",
+          "address": "Office — Marunouchi",
+          "latitude": 35.6812,
+          "longitude": 139.7649,
+          "radiusMeters": 200,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "📋",
+          "timeLabel": "6:00 PM"
+        },
+        {
+          "title": "Izakaya with the team",
+          "description": "Torikizoku near Yurakucho. First round on bucho.",
+          "address": "Yurakucho, Chiyoda",
+          "latitude": 35.675,
+          "longitude": 139.7636,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍶",
+          "timeLabel": "7:00 PM"
+        }
+      ]
+    },
+    {
+      "id": "jp-kyoto-temples",
+      "name": "Kyoto Temple Trail",
+      "tagline": "Bamboo, shrines, and matcha",
+      "description": "A full day in Kyoto: Fushimi Inari at dawn, Arashiyama bamboo grove, golden pavilion, matcha in Gion, and lantern-lit Higashiyama.",
+      "icon": "⛩️",
+      "color": "#22C55E",
+      "city": "Kyoto",
+      "origin": { "latitude": 34.9856, "longitude": 135.7583, "address": "Kyoto Station" },
+      "stops": [
+        {
+          "title": "Fushimi Inari — go at sunrise",
+          "description": "No crowds before 7 AM. Thousands of vermilion torii.",
+          "address": "Fushimi Inari Taisha, Kyoto",
+          "latitude": 34.9671,
+          "longitude": 135.7727,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "⛩️",
+          "timeLabel": "6:30 AM"
+        },
+        {
+          "title": "Bamboo grove — morning light",
+          "description": "Arashiyama. Visit by 9 AM for empty photos.",
+          "address": "Arashiyama Bamboo Grove, Kyoto",
+          "latitude": 35.0094,
+          "longitude": 135.6716,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🎋",
+          "timeLabel": "9:00 AM"
+        },
+        {
+          "title": "Kinkaku-ji (Golden Pavilion)",
+          "description": "Stunning reflection on the lake. ¥400 entry.",
+          "address": "Kinkaku-ji, Kyoto",
+          "latitude": 35.0394,
+          "longitude": 135.7292,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏯",
+          "timeLabel": "11:00 AM"
+        },
+        {
+          "title": "Matcha + wagashi in Gion",
+          "description": "Tsujiri matcha house. Try the matcha parfait.",
+          "address": "Gion District, Kyoto",
+          "latitude": 35.0037,
+          "longitude": 135.7756,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍵",
+          "timeLabel": "1:30 PM"
+        },
+        {
+          "title": "Kiyomizu-dera before sunset",
+          "description": "Wooden terrace with panoramic city views.",
+          "address": "Kiyomizu-dera, Higashiyama",
+          "latitude": 34.995,
+          "longitude": 135.785,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛕",
+          "timeLabel": "4:00 PM"
+        },
+        {
+          "title": "Evening stroll — Higashiyama streets",
+          "description": "Ninenzaka & Sannenzaka. Get yatsuhashi souvenirs.",
+          "address": "Higashiyama District, Kyoto",
+          "latitude": 34.9984,
+          "longitude": 135.7808,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏮",
+          "timeLabel": "6:00 PM"
+        }
+      ]
+    }
+  ]
+}

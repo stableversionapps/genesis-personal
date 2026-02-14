@@ -1,0 +1,380 @@
+{
+  "regionCode": "US",
+  "regionName": "United States",
+  "flag": "🇺🇸",
+  "seasonalNotes": "Hot summers (Jun–Sep), cold winters in the north, mild in CA. Hurricane season Jun–Nov on East/Gulf coasts. Wildfire season in CA Jul–Oct.",
+  "personas": [
+    {
+      "id": "us-sf-commuter",
+      "name": "SF Office Commute",
+      "tagline": "BART, meetings, and grocery runs in the city",
+      "description": "Commutes from Mission District to Financial District via BART. Office meetings, lunch errands, grocery stop on the way home.",
+      "icon": "🌉",
+      "color": "#3B82F6",
+      "city": "San Francisco",
+      "origin": { "latitude": 37.758, "longitude": -122.4155, "address": "Mission District, San Francisco" },
+      "stops": [
+        {
+          "title": "Laptop charger on dining table",
+          "description": "Check for laptop charger before leaving home.",
+          "address": "Home — Mission District",
+          "latitude": 37.758,
+          "longitude": -122.4155,
+          "radiusMeters": 80,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "🏠",
+          "timeLabel": "7:20 AM"
+        },
+        {
+          "title": "Review Jira tickets on train",
+          "description": "9:30 AM standup — review tickets during commute.",
+          "address": "16th St Mission BART Station",
+          "latitude": 37.7649,
+          "longitude": -122.4194,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🚇",
+          "timeLabel": "7:35 AM"
+        },
+        {
+          "title": "Submit reimbursement before payroll",
+          "description": "Expense report due by EOD — do it while at desk.",
+          "address": "Salesforce Tower, Financial District",
+          "latitude": 37.7897,
+          "longitude": -122.3969,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏢",
+          "timeLabel": "9:00 AM"
+        },
+        {
+          "title": "Send follow-up email to client",
+          "description": "Client call done — send summary within 1 hour.",
+          "address": "Financial District Office",
+          "latitude": 37.7897,
+          "longitude": -122.3969,
+          "radiusMeters": 200,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "📧",
+          "timeLabel": "5:30 PM"
+        },
+        {
+          "title": "Buy oat milk + groceries",
+          "description": "You're out of oat milk. Buy before tomorrow's coffee crisis.",
+          "address": "Whole Foods, SOMA",
+          "latitude": 37.7821,
+          "longitude": -122.407,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛒",
+          "timeLabel": "6:05 PM"
+        },
+        {
+          "title": "Defrost chicken for dinner",
+          "description": "Take chicken out of freezer when you get home.",
+          "address": "Home — Mission District",
+          "latitude": 37.758,
+          "longitude": -122.4155,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍗",
+          "timeLabel": "6:40 PM"
+        }
+      ]
+    },
+    {
+      "id": "us-nyc-parent",
+      "name": "NYC School Run & Errands",
+      "tagline": "Drop-off, subway, pharmacy, and dinner prep",
+      "description": "A parent juggling school drop-off in Brooklyn, subway commute to Midtown, pharmacy pickup, and groceries on the way home.",
+      "icon": "🗽",
+      "color": "#22C55E",
+      "city": "New York City",
+      "origin": { "latitude": 40.6782, "longitude": -73.9442, "address": "Park Slope, Brooklyn" },
+      "stops": [
+        {
+          "title": "Pack lunch + check homework",
+          "description": "School bag packed? Homework sheet signed?",
+          "address": "Home — Park Slope",
+          "latitude": 40.6782,
+          "longitude": -73.9442,
+          "radiusMeters": 80,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "🏠",
+          "timeLabel": "7:00 AM"
+        },
+        {
+          "title": "School drop-off — art project!",
+          "description": "Don't forget the art project in the trunk.",
+          "address": "PS 321, Park Slope",
+          "latitude": 40.6706,
+          "longitude": -73.9798,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏫",
+          "timeLabel": "7:45 AM"
+        },
+        {
+          "title": "Submit insurance form",
+          "description": "Insurance paperwork due by 5 PM.",
+          "address": "Office — Midtown Manhattan",
+          "latitude": 40.7549,
+          "longitude": -73.984,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏢",
+          "timeLabel": "9:15 AM"
+        },
+        {
+          "title": "Pick up allergy medicine",
+          "description": "Pediatric prescription — pharmacy closes at 8 PM.",
+          "address": "CVS, Atlantic Ave, Brooklyn",
+          "latitude": 40.6862,
+          "longitude": -73.9778,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "💊",
+          "timeLabel": "5:40 PM"
+        },
+        {
+          "title": "Strawberries + snacks for school",
+          "description": "Strawberries, string cheese, apple slices.",
+          "address": "Trader Joe's, Court St, Brooklyn",
+          "latitude": 40.6889,
+          "longitude": -73.9919,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍓",
+          "timeLabel": "6:10 PM"
+        }
+      ]
+    },
+    {
+      "id": "us-austin-student",
+      "name": "Austin Campus Day",
+      "tagline": "Lectures, library, coffee, and laundry",
+      "description": "A UT Austin student going from dorm to lectures, library study session, coffee break, and errands on Guadalupe St.",
+      "icon": "🤘",
+      "color": "#8B5CF6",
+      "city": "Austin",
+      "origin": { "latitude": 30.2849, "longitude": -97.7341, "address": "Jester West Dorm, UT Austin" },
+      "stops": [
+        {
+          "title": "Transfer rent before the 5th",
+          "description": "Rent due — open bank app and send now.",
+          "address": "Jester Dorm, UT Austin",
+          "latitude": 30.2849,
+          "longitude": -97.7341,
+          "radiusMeters": 80,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "💸",
+          "timeLabel": "8:15 AM"
+        },
+        {
+          "title": "Print notes for CS lecture",
+          "description": "Prof doesn't post slides — print before class.",
+          "address": "GDC Building, UT Austin",
+          "latitude": 30.2862,
+          "longitude": -97.7366,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🖨️",
+          "timeLabel": "9:00 AM"
+        },
+        {
+          "title": "Return library books",
+          "description": "2 books overdue — drop off before fines stack up.",
+          "address": "Perry-Castañeda Library, UT Austin",
+          "latitude": 30.2828,
+          "longitude": -97.7382,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "📚",
+          "timeLabel": "11:00 AM"
+        },
+        {
+          "title": "Grab lunch at food truck",
+          "description": "Tacos from the Guadalupe truck. Cash only.",
+          "address": "Guadalupe St Food Trucks",
+          "latitude": 30.2877,
+          "longitude": -97.7414,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🌮",
+          "timeLabel": "12:30 PM"
+        },
+        {
+          "title": "Buy laundry detergent",
+          "description": "Down to the last load.",
+          "address": "Target, Guadalupe St",
+          "latitude": 30.2953,
+          "longitude": -97.7419,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🧺",
+          "timeLabel": "5:00 PM"
+        }
+      ]
+    },
+    {
+      "id": "us-la-weekend",
+      "name": "LA Saturday Errands",
+      "tagline": "Farmers market, beach, and a hike",
+      "description": "A typical LA weekend: Santa Monica farmers market, beach walk, Griffith Park hike, and a taco stop in Silver Lake.",
+      "icon": "🌴",
+      "color": "#EF4444",
+      "city": "Los Angeles",
+      "origin": { "latitude": 34.0195, "longitude": -118.4912, "address": "Santa Monica, Los Angeles" },
+      "stops": [
+        {
+          "title": "Sunscreen + reusable bags",
+          "description": "Grab sunscreen and market bags before heading out.",
+          "address": "Home — Santa Monica",
+          "latitude": 34.0195,
+          "longitude": -118.4912,
+          "radiusMeters": 80,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "🧴",
+          "timeLabel": "8:00 AM"
+        },
+        {
+          "title": "Farmers market — get avocados",
+          "description": "Wednesday market has the best Haas avocados. Get 6.",
+          "address": "Santa Monica Farmers Market",
+          "latitude": 34.0164,
+          "longitude": -118.495,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🥑",
+          "timeLabel": "8:30 AM"
+        },
+        {
+          "title": "Beach walk — bring water bottle",
+          "description": "Walk from pier to Venice. Stay hydrated.",
+          "address": "Santa Monica Pier",
+          "latitude": 34.0094,
+          "longitude": -118.4973,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏖️",
+          "timeLabel": "10:00 AM"
+        },
+        {
+          "title": "Griffith Park hike",
+          "description": "Hollywood sign trail. Start before noon to avoid heat.",
+          "address": "Griffith Observatory, Los Feliz",
+          "latitude": 34.1184,
+          "longitude": -118.3004,
+          "radiusMeters": 300,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🥾",
+          "timeLabel": "12:00 PM"
+        },
+        {
+          "title": "Tacos in Silver Lake",
+          "description": "Guisados on Sunset. Order the cochinita pibil.",
+          "address": "Guisados, Silver Lake",
+          "latitude": 34.0853,
+          "longitude": -118.2616,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🌮",
+          "timeLabel": "2:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "us-chicago-roadtrip",
+      "name": "Chicago Day Out",
+      "tagline": "Deep dish, lakefront, and architecture tour",
+      "description": "Visiting Chicago: deep dish pizza, Millennium Park, architecture boat tour, and shopping on Michigan Ave.",
+      "icon": "🏙️",
+      "color": "#F59E0B",
+      "city": "Chicago",
+      "origin": { "latitude": 41.8827, "longitude": -87.6233, "address": "The Loop, Chicago" },
+      "stops": [
+        {
+          "title": "Layer up — check weather",
+          "description": "Chicago wind is no joke. Check temp before heading out.",
+          "address": "Hotel — The Loop",
+          "latitude": 41.8827,
+          "longitude": -87.6233,
+          "radiusMeters": 80,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "🧥",
+          "timeLabel": "8:30 AM"
+        },
+        {
+          "title": "Millennium Park — The Bean",
+          "description": "Get photos at Cloud Gate before it gets crowded.",
+          "address": "Millennium Park, Chicago",
+          "latitude": 41.8827,
+          "longitude": -87.6227,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🫘",
+          "timeLabel": "9:00 AM"
+        },
+        {
+          "title": "Architecture boat tour",
+          "description": "Board at Michigan Ave bridge. Departs 11 AM sharp.",
+          "address": "Chicago Architecture Center",
+          "latitude": 41.8885,
+          "longitude": -87.6246,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🚢",
+          "timeLabel": "10:45 AM"
+        },
+        {
+          "title": "Deep dish pizza for lunch",
+          "description": "Lou Malnati's on State St. Expect 30 min wait.",
+          "address": "Lou Malnati's, State St, Chicago",
+          "latitude": 41.8903,
+          "longitude": -87.628,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍕",
+          "timeLabel": "1:00 PM"
+        },
+        {
+          "title": "Walk the Lakefront Trail",
+          "description": "Navy Pier to Oak Street Beach stretch.",
+          "address": "Navy Pier, Chicago",
+          "latitude": 41.8917,
+          "longitude": -87.6086,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🚶",
+          "timeLabel": "3:00 PM"
+        }
+      ]
+    }
+  ]
+}

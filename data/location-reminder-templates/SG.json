@@ -1,0 +1,176 @@
+{
+  "regionCode": "SG",
+  "regionName": "Singapore",
+  "flag": "🇸🇬",
+  "seasonalNotes": "Tropical year-round: 25–32°C, high humidity. Monsoon Nov–Jan. Afternoon thunderstorms common. Haze Aug–Oct. Always carry umbrella.",
+  "personas": [
+    {
+      "id": "sg-office-day",
+      "name": "Singapore Work Day",
+      "tagline": "MRT, kopi, and hawker lunch",
+      "description": "Lives in Toa Payoh, works in Raffles Place CBD. Kopi at the kopitiam, MRT to office, hawker lunch at Lau Pa Sat, FairPrice groceries on the way home.",
+      "icon": "🏙️",
+      "color": "#EF4444",
+      "city": "Singapore",
+      "origin": { "latitude": 1.3329, "longitude": 103.8492, "address": "Toa Payoh, Singapore" },
+      "stops": [
+        {
+          "title": "Kopi-o kosong at the kopitiam",
+          "description": "Uncle's stall at Blk 75. Say 'kopi-o kosong'.",
+          "address": "Toa Payoh Lorong 4 Kopitiam",
+          "latitude": 1.3347,
+          "longitude": 103.8498,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "☕",
+          "timeLabel": "7:30 AM"
+        },
+        {
+          "title": "EZ-Link balance — top up if <$5",
+          "description": "Check at the gantry. Top up at GTM if needed.",
+          "address": "Toa Payoh MRT",
+          "latitude": 1.3327,
+          "longitude": 103.8472,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🚇",
+          "timeLabel": "8:00 AM"
+        },
+        {
+          "title": "9 AM standup — bring charger",
+          "description": "Battery was low yesterday. Don't forget again.",
+          "address": "One Raffles Place, Singapore",
+          "latitude": 1.2839,
+          "longitude": 103.8515,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏢",
+          "timeLabel": "8:45 AM"
+        },
+        {
+          "title": "Hawker lunch — Lau Pa Sat",
+          "description": "Chicken rice or laksa. Go at 11:30 to beat the queue.",
+          "address": "Lau Pa Sat, Raffles Quay",
+          "latitude": 1.2806,
+          "longitude": 103.8505,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍜",
+          "timeLabel": "11:30 AM"
+        },
+        {
+          "title": "FairPrice — eggs, bread, milo",
+          "description": "Check the app for promo prices.",
+          "address": "FairPrice, Toa Payoh Central",
+          "latitude": 1.3328,
+          "longitude": 103.8504,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛒",
+          "timeLabel": "6:30 PM"
+        },
+        {
+          "title": "Dinner at Tiong Bahru Market",
+          "description": "Chwee kueh + carrot cake. Tapao extra for tomorrow.",
+          "address": "Tiong Bahru Market, Singapore",
+          "latitude": 1.2847,
+          "longitude": 103.8316,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🥘",
+          "timeLabel": "7:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "sg-tourist-day",
+      "name": "Singapore Sightseeing",
+      "tagline": "Gardens, Marina Bay, and street food",
+      "description": "Tourist day: Gardens by the Bay, Marina Bay Sands SkyPark, Little India lunch, Chinatown, Orchard Road, and Clarke Quay drinks.",
+      "icon": "🌺",
+      "color": "#A855F7",
+      "city": "Singapore",
+      "origin": { "latitude": 1.2816, "longitude": 103.8636, "address": "Marina Bay, Singapore" },
+      "stops": [
+        {
+          "title": "Gardens by the Bay — Supertree Grove",
+          "description": "OCBC Skyway opens at 9. Bring water — humid!",
+          "address": "Gardens by the Bay, Marina Gardens Dr",
+          "latitude": 1.2816,
+          "longitude": 103.8636,
+          "radiusMeters": 250,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🌳",
+          "timeLabel": "9:00 AM"
+        },
+        {
+          "title": "Marina Bay Sands SkyPark",
+          "description": "$26 non-guest. 360° skyline view.",
+          "address": "Marina Bay Sands, Singapore",
+          "latitude": 1.2834,
+          "longitude": 103.8607,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏨",
+          "timeLabel": "11:00 AM"
+        },
+        {
+          "title": "Lunch at Tekka Centre — Little India",
+          "description": "Biryani + murtabak. Cash only at some stalls.",
+          "address": "Tekka Centre, Little India",
+          "latitude": 1.3064,
+          "longitude": 103.8499,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍛",
+          "timeLabel": "12:30 PM"
+        },
+        {
+          "title": "Chinatown Heritage Centre",
+          "description": "Early Chinese immigrant history. $18 adult.",
+          "address": "Chinatown Heritage Centre, Pagoda St",
+          "latitude": 1.2834,
+          "longitude": 103.8443,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏮",
+          "timeLabel": "2:30 PM"
+        },
+        {
+          "title": "Orchard Road shopping",
+          "description": "ION Orchard or Takashimaya. Cool off in the AC.",
+          "address": "ION Orchard, Orchard Rd",
+          "latitude": 1.3039,
+          "longitude": 103.832,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛍️",
+          "timeLabel": "4:30 PM"
+        },
+        {
+          "title": "Evening drinks — Clarke Quay",
+          "description": "Riverside bars. Laser show across the water at 8 PM.",
+          "address": "Clarke Quay, Singapore",
+          "latitude": 1.2906,
+          "longitude": 103.8464,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍹",
+          "timeLabel": "7:00 PM"
+        }
+      ]
+    }
+  ]
+}

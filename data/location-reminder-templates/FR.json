@@ -1,0 +1,80 @@
+{
+  "regionCode": "FR",
+  "regionName": "France",
+  "flag": "🇫🇷",
+  "seasonalNotes": "Mild climate. Hot summers in the south (35°C+). Paris pleasant Apr–Jun and Sep–Oct. August is holiday month — many shops close. Rainy Nov–Feb.",
+  "personas": [
+    {
+      "id": "fr-paris-day",
+      "name": "A Day in Paris",
+      "tagline": "Croissants, museums, and Seine-side walks",
+      "description": "Classic Paris day: bakery breakfast, Louvre visit, lunch in Le Marais, walk along the Seine, and Montmartre for sunset.",
+      "icon": "🗼",
+      "color": "#EF4444",
+      "city": "Paris",
+      "origin": { "latitude": 48.8566, "longitude": 2.3522, "address": "Châtelet, Paris" },
+      "stops": [
+        {
+          "title": "Croissant + café crème",
+          "description": "Du Pain et des Idées. Best croissant in the 10th.",
+          "address": "Du Pain et des Idées, Canal Saint-Martin",
+          "latitude": 48.8711,
+          "longitude": 2.3624,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🥐",
+          "timeLabel": "8:30 AM"
+        },
+        {
+          "title": "Louvre — Mona Lisa before the crowds",
+          "description": "Enter via Porte des Lions. Less queue. Go straight to Salle 711.",
+          "address": "Musée du Louvre, Paris",
+          "latitude": 48.8606,
+          "longitude": 2.3376,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏛️",
+          "timeLabel": "10:00 AM"
+        },
+        {
+          "title": "Lunch in Le Marais",
+          "description": "Falafel at L'As du Fallafel or sit-down bistro.",
+          "address": "Rue des Rosiers, Le Marais",
+          "latitude": 48.857,
+          "longitude": 2.3575,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🥙",
+          "timeLabel": "1:00 PM"
+        },
+        {
+          "title": "Walk along the Seine",
+          "description": "Pont des Arts to Notre-Dame. Grab a crêpe from a stall.",
+          "address": "Pont des Arts, Paris",
+          "latitude": 48.8583,
+          "longitude": 2.3374,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🚶",
+          "timeLabel": "3:00 PM"
+        },
+        {
+          "title": "Montmartre sunset at Sacré-Cœur",
+          "description": "Climb the steps. Watch sunset over the city from the parvis.",
+          "address": "Sacré-Cœur, Montmartre",
+          "latitude": 48.8867,
+          "longitude": 2.3431,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "⛪",
+          "timeLabel": "6:00 PM"
+        }
+      ]
+    }
+  ]
+}

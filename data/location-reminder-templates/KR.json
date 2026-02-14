@@ -24,7 +24,14 @@
           "triggerOnEntry": false,
           "triggerOnExit": true,
           "icon": "🚇",
-          "timeLabel": "8:00 AM"
+          "timeLabel": "8:00 AM",
+          "action": "Check AQI and wear a mask if needed. Top up your T-money card at the convenience store.",
+          "context": "Dust levels can be high in spring—monitor air quality apps.",
+          "wellbeing": "Wear a KF94 mask for best protection.",
+          "motivation": "A healthy start means a productive day!",
+          "localization": "Most convenience stores accept cards and cash.",
+          "transition": "Walk to Fritz Coffee for your morning brew.",
+          "feedback": "Did this tip help you start your commute safely?"
         },
         {
           "title": "Coffee at Fritz",
@@ -36,7 +43,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "☕",
-          "timeLabel": "8:20 AM"
+          "timeLabel": "8:20 AM",
+          "action": "Order the einspänner and try a pastry. You may receive a discount for using a reusable cup.",
+          "context": "Fritz is popular—expect a queue after 8:30 AM.",
+          "wellbeing": "Limit caffeine if you’re sensitive.",
+          "motivation": "A good coffee fuels your creativity!",
+          "localization": "Staff speak some English. Card payments accepted.",
+          "transition": "Take the metro to Gangnam for work.",
+          "feedback": "Did this coffee tip help you enjoy your morning?"
         },
         {
           "title": "Sprint standup — don't be late",
@@ -48,7 +62,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏢",
-          "timeLabel": "9:50 AM"
+          "timeLabel": "9:50 AM",
+          "action": "Arrive 5 minutes early and check your agenda.",
+          "context": "Punctuality is highly valued in Korean workplaces.",
+          "wellbeing": "Take a few deep breaths before the meeting.",
+          "motivation": "Start your workday with focus!",
+          "localization": "WeWork has English-speaking staff.",
+          "transition": "Plan for team lunch after the meeting.",
+          "feedback": "Did this standup tip help you stay on time?"
         },
         {
           "title": "Team lunch — samgyeopsal",
@@ -60,7 +81,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🥩",
-          "timeLabel": "12:30 PM"
+          "timeLabel": "12:30 PM",
+          "action": "Try the samgyeopsal and ask for side dishes. Share with your team.",
+          "context": "Lunch spots fill up quickly—arrive early for a table.",
+          "wellbeing": "Eat slowly and enjoy the company.",
+          "motivation": "Bonding over food builds strong teams!",
+          "localization": "Menus in Korean, some English available.",
+          "transition": "Return to the office or run errands nearby.",
+          "feedback": "Did this lunch tip help you enjoy your meal?"
         },
         {
           "title": "Pick up Coupang package at CU",
@@ -72,7 +100,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "📦",
-          "timeLabel": "6:30 PM"
+          "timeLabel": "6:30 PM",
+          "action": "Bring your pickup code and ID. Use the self-service locker.",
+          "context": "Evenings are busy at convenience stores.",
+          "wellbeing": "Sanitize your hands after handling packages.",
+          "motivation": "Efficient errands free up your evening!",
+          "localization": "CU lockers have English instructions.",
+          "transition": "Head to Hongdae for dinner with friends.",
+          "feedback": "Did this pickup tip help you today?"
         },
         {
           "title": "K-BBQ with friends — Hongdae",
@@ -84,7 +119,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🔥",
-          "timeLabel": "7:30 PM"
+          "timeLabel": "7:30 PM",
+          "action": "Arrive on time and order your favorite cuts. Try grilling garlic for extra flavor.",
+          "context": "Hongdae is lively at night—expect crowds and music.",
+          "wellbeing": "Eat slowly and drink water with your meal.",
+          "motivation": "Celebrate your day with friends!",
+          "localization": "Menus in Korean and English. Card payments accepted.",
+          "transition": "Plan your route home or to your next stop.",
+          "feedback": "Did this dinner tip help you enjoy your evening?"
         }
       ]
     },
@@ -108,7 +150,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🐟",
-          "timeLabel": "8:30 AM"
+          "timeLabel": "8:30 AM",
+          "action": "Arrive early for the freshest catch. Bring cash for small vendors.",
+          "context": "Jagalchi is busiest after 9 AM—go early for a quieter experience.",
+          "wellbeing": "Wash your hands before eating sashimi.",
+          "motivation": "Start your day with a taste of Busan!",
+          "localization": "Vendors speak basic English. Card payments accepted at some stalls.",
+          "transition": "Take the metro to Haeundae Beach.",
+          "feedback": "Did this breakfast tip help you enjoy Busan?"
         },
         {
           "title": "Haeundae Beach walk",
@@ -120,7 +169,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏖️",
-          "timeLabel": "10:30 AM"
+          "timeLabel": "10:30 AM",
+          "action": "Walk along the boardwalk and try a hotteok from a local vendor.",
+          "context": "The beach is busiest in summer—visit early for a peaceful stroll.",
+          "wellbeing": "Wear sunscreen and stay hydrated.",
+          "motivation": "A beach walk refreshes your mind!",
+          "localization": "Public toilets and showers available.",
+          "transition": "Take a taxi or bus to Haedong Yonggungsa Temple.",
+          "feedback": "Did this walk help you enjoy Busan’s coast?"
         },
         {
           "title": "Haedong Yonggungsa Temple",
@@ -132,7 +188,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🛕",
-          "timeLabel": "12:00 PM"
+          "timeLabel": "12:00 PM",
+          "action": "Walk the cliffside path and take photos of the temple and sea.",
+          "context": "The temple is a popular spot for both locals and tourists.",
+          "wellbeing": "Hold the handrail on stairs and watch your step.",
+          "motivation": "Find peace by the sea!",
+          "localization": "Signage in Korean, English, Chinese, Japanese.",
+          "transition": "Return to the city for lunch at BIFF Square.",
+          "feedback": "Did this temple tip help you enjoy the view?"
         },
         {
           "title": "BIFF Square street food",
@@ -144,7 +207,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🍡",
-          "timeLabel": "2:30 PM"
+          "timeLabel": "2:30 PM",
+          "action": "Try a variety of street foods and take photos of the BIFF sign.",
+          "context": "Afternoons are less crowded than evenings.",
+          "wellbeing": "Eat freshly cooked food for safety.",
+          "motivation": "Street food is a must in Busan!",
+          "localization": "Vendors speak some English. Card payments accepted.",
+          "transition": "Take a bus or taxi to Gamcheon Village.",
+          "feedback": "Did this food tip help you enjoy Busan?"
         },
         {
           "title": "Gamcheon Village sunset",
@@ -156,7 +226,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🎨",
-          "timeLabel": "5:00 PM"
+          "timeLabel": "5:00 PM",
+          "action": "Explore the village and take photos at sunset. Look for the Little Prince statue.",
+          "context": "The village is hilly—wear comfortable shoes.",
+          "wellbeing": "Stay hydrated and take breaks on steep climbs.",
+          "motivation": "End your day with art and color!",
+          "localization": "Maps available at the entrance. Cafés and shops throughout.",
+          "transition": "Plan your route back to Busan Station.",
+          "feedback": "Did this sunset tip help you enjoy Gamcheon?"
         }
       ]
     }

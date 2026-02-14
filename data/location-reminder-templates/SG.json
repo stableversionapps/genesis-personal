@@ -24,7 +24,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "☕",
-          "timeLabel": "7:30 AM"
+          "timeLabel": "7:30 AM",
+          "action": "Order a kopi-o kosong; using a reusable cup may be eligible for a discount.",
+          "context": "Morning rush—arrive before 8 for a seat.",
+          "wellbeing": "Limit sugar for a healthy start.",
+          "motivation": "A good coffee powers your day!",
+          "localization": "Most kopitiams accept cash only.",
+          "transition": "Walk to Toa Payoh MRT for your commute.",
+          "feedback": "Did this coffee tip help you start your day?"
         },
         {
           "title": "EZ-Link balance — top up if <$5",
@@ -36,7 +43,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🚇",
-          "timeLabel": "8:00 AM"
+          "timeLabel": "8:00 AM",
+          "action": "Check your EZ-Link balance and top up at the GTM if needed.",
+          "context": "Morning queues can be long at the top-up machines.",
+          "wellbeing": "Keep your bag zipped and valuables secure.",
+          "motivation": "A topped-up card means a smooth commute!",
+          "localization": "GTM machines accept cash and cards.",
+          "transition": "Board the MRT to Raffles Place.",
+          "feedback": "Did this tip help you avoid delays?"
         },
         {
           "title": "9 AM standup — bring charger",
@@ -48,7 +62,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏢",
-          "timeLabel": "8:45 AM"
+          "timeLabel": "8:45 AM",
+          "action": "Pack your charger and check your battery before the meeting.",
+          "context": "Office WiFi can be spotty—download files in advance.",
+          "wellbeing": "Sit with good posture during meetings.",
+          "motivation": "Preparedness leads to a productive day!",
+          "localization": "Reception can help with directions.",
+          "transition": "Head to Lau Pa Sat for lunch.",
+          "feedback": "Did this meeting tip help you today?"
         },
         {
           "title": "Hawker lunch — Lau Pa Sat",
@@ -60,7 +81,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🍜",
-          "timeLabel": "11:30 AM"
+          "timeLabel": "11:30 AM",
+          "action": "Try chicken rice or laksa. Bring cash for faster payment.",
+          "context": "Lunch rush starts at noon—arrive early for a seat.",
+          "wellbeing": "Wash your hands before eating.",
+          "motivation": "A good lunch keeps you energized!",
+          "localization": "Menus in English and Chinese.",
+          "transition": "Return to Toa Payoh after work.",
+          "feedback": "Did this lunch tip help you enjoy hawker food?"
         },
         {
           "title": "FairPrice — eggs, bread, milo",
@@ -72,7 +100,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🛒",
-          "timeLabel": "6:30 PM"
+          "timeLabel": "6:30 PM",
+          "action": "Check your shopping list and scan the FairPrice app for deals.",
+          "context": "Evenings are busy—shop quickly to avoid crowds.",
+          "wellbeing": "Carry reusable bags to reduce plastic waste.",
+          "motivation": "Smart shopping saves money and time!",
+          "localization": "FairPrice stores are open late.",
+          "transition": "Head to Tiong Bahru Market for dinner.",
+          "feedback": "Did this shopping tip help you today?"
         },
         {
           "title": "Dinner at Tiong Bahru Market",
@@ -84,7 +119,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🥘",
-          "timeLabel": "7:30 PM"
+          "timeLabel": "7:30 PM",
+          "action": "Order chwee kueh and carrot cake. Tapao extra for tomorrow.",
+          "context": "Dinner rush starts at 7—arrive early for a seat.",
+          "wellbeing": "Eat light for better sleep.",
+          "motivation": "End your day with a local favorite!",
+          "localization": "Most stalls accept cash only.",
+          "transition": "Plan your route home or to your next stop.",
+          "feedback": "Did this dinner tip help you enjoy your meal?"
         }
       ]
     },
@@ -108,7 +150,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🌳",
-          "timeLabel": "9:00 AM"
+          "timeLabel": "9:00 AM",
+          "action": "Arrive early to avoid crowds. Bring water and a hat.",
+          "context": "Humidity is high—dress in light clothes.",
+          "wellbeing": "Stay hydrated and take breaks in the shade.",
+          "motivation": "Start your day with nature and fresh air!",
+          "localization": "Signage in English and Chinese. Toilets available.",
+          "transition": "Walk to Marina Bay Sands for the SkyPark.",
+          "feedback": "Did this garden tip help you enjoy your visit?"
         },
         {
           "title": "Marina Bay Sands SkyPark",
@@ -120,7 +169,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏨",
-          "timeLabel": "11:00 AM"
+          "timeLabel": "11:00 AM",
+          "action": "Buy your ticket online to skip the queue. Bring your camera.",
+          "context": "Best views are before noon—less haze.",
+          "wellbeing": "Use sunscreen on the SkyPark deck.",
+          "motivation": "See Singapore from above!",
+          "localization": "Audio guides available. Staff speak English.",
+          "transition": "Take the MRT to Little India for lunch.",
+          "feedback": "Did this SkyPark tip help you enjoy the view?"
         },
         {
           "title": "Lunch at Tekka Centre — Little India",
@@ -132,7 +188,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🍛",
-          "timeLabel": "12:30 PM"
+          "timeLabel": "12:30 PM",
+          "action": "Try biryani or murtabak. Bring cash for payment.",
+          "context": "Lunch rush starts at noon—arrive early for a seat.",
+          "wellbeing": "Wash your hands before eating.",
+          "motivation": "Enjoy the flavors of Little India!",
+          "localization": "Menus in English and Tamil.",
+          "transition": "Take the MRT to Chinatown for your next stop.",
+          "feedback": "Did this lunch tip help you enjoy Little India?"
         },
         {
           "title": "Chinatown Heritage Centre",
@@ -144,7 +207,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏮",
-          "timeLabel": "2:30 PM"
+          "timeLabel": "2:30 PM",
+          "action": "Buy your ticket at the entrance. Explore the exhibits at your own pace.",
+          "context": "Afternoons are quieter—good for a relaxed visit.",
+          "wellbeing": "Take breaks in the air-conditioned galleries.",
+          "motivation": "Learn about Singapore’s rich history!",
+          "localization": "Exhibits in English and Chinese.",
+          "transition": "Take the MRT to Orchard Road for shopping.",
+          "feedback": "Did this museum tip help you enjoy Chinatown?"
         },
         {
           "title": "Orchard Road shopping",
@@ -156,7 +226,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🛍️",
-          "timeLabel": "4:30 PM"
+          "timeLabel": "4:30 PM",
+          "action": "Shop for deals at ION or Takashimaya. Take a break in the food court.",
+          "context": "Orchard Road is busiest after 5 PM.",
+          "wellbeing": "Stay hydrated and rest your feet.",
+          "motivation": "Treat yourself after a day of sightseeing!",
+          "localization": "Most shops accept cards and mobile payments.",
+          "transition": "Take the MRT to Clarke Quay for evening drinks.",
+          "feedback": "Did this shopping tip help you today?"
         },
         {
           "title": "Evening drinks — Clarke Quay",
@@ -168,7 +245,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🍹",
-          "timeLabel": "7:00 PM"
+          "timeLabel": "7:00 PM",
+          "action": "Find a riverside table and enjoy the laser show at 8 PM.",
+          "context": "Evenings are lively—arrive early for a good spot.",
+          "wellbeing": "Drink water between alcoholic drinks.",
+          "motivation": "End your day with a relaxing view!",
+          "localization": "Most bars accept cards and mobile payments.",
+          "transition": "Plan your route back to your hotel or home.",
+          "feedback": "Did this evening tip help you enjoy Clarke Quay?"
         }
       ]
     }

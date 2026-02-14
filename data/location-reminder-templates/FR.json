@@ -24,7 +24,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🥐",
-          "timeLabel": "8:30 AM"
+          "timeLabel": "8:30 AM",
+          "action": "Arrive early for fresh pastries. You may wish to order in French to enhance your local experience.",
+          "context": "This bakery is popular—expect a queue after 9 AM.",
+          "wellbeing": "Enjoy your breakfast slowly and savor the moment.",
+          "motivation": "A great start sets the mood for your Parisian day!",
+          "localization": "Staff speak some English. Card payments accepted.",
+          "transition": "Walk to the Louvre for your morning museum visit.",
+          "feedback": "Did this breakfast tip help you enjoy Paris?"
         },
         {
           "title": "Louvre — Mona Lisa before the crowds",
@@ -36,7 +43,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏛️",
-          "timeLabel": "10:00 AM"
+          "timeLabel": "10:00 AM",
+          "action": "Buy your ticket online to skip the line. Head straight to the Mona Lisa.",
+          "context": "The Louvre is busiest after 11 AM—early entry is best.",
+          "wellbeing": "Wear comfortable shoes for lots of walking.",
+          "motivation": "See world-famous art up close!",
+          "localization": "Audio guides available in multiple languages.",
+          "transition": "Head to Le Marais for lunch.",
+          "feedback": "Did this museum tip help you beat the crowds?"
         },
         {
           "title": "Lunch in Le Marais",
@@ -48,7 +62,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🥙",
-          "timeLabel": "1:00 PM"
+          "timeLabel": "1:00 PM",
+          "action": "Try the falafel or explore a classic Parisian bistro.",
+          "context": "Le Marais is lively at lunchtime—expect a wait at popular spots.",
+          "wellbeing": "Choose a seat outside if the weather is nice.",
+          "motivation": "Enjoying local food is part of the Paris experience!",
+          "localization": "Menus often in French and English.",
+          "transition": "Walk towards the Seine for a scenic stroll.",
+          "feedback": "Did you enjoy your lunch in Le Marais?"
         },
         {
           "title": "Walk along the Seine",
@@ -60,7 +81,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🚶",
-          "timeLabel": "3:00 PM"
+          "timeLabel": "3:00 PM",
+          "action": "Buy a crêpe from a riverside vendor and enjoy the view.",
+          "context": "Afternoons are perfect for a relaxed walk—watch for street performers.",
+          "wellbeing": "Stay hydrated and wear sunscreen in summer.",
+          "motivation": "A walk by the Seine is quintessential Paris!",
+          "localization": "Public toilets available along the river.",
+          "transition": "Head to Montmartre for sunset.",
+          "feedback": "Did this walk help you experience Paris like a local?"
         },
         {
           "title": "Montmartre sunset at Sacré-Cœur",
@@ -72,7 +100,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "⛪",
-          "timeLabel": "6:00 PM"
+          "timeLabel": "6:00 PM",
+          "action": "Arrive early for a good spot. Beware of pickpockets on the steps.",
+          "context": "Sunset is a popular time—expect crowds and street artists.",
+          "wellbeing": "Hold the handrail when climbing the steps.",
+          "motivation": "End your day with a breathtaking view!",
+          "localization": "Metro: Anvers or Abbesses. Cafés nearby for dinner.",
+          "transition": "Plan your route back to your hotel or next destination.",
+          "feedback": "Did this sunset tip help you enjoy Montmartre?"
         }
       ]
     }

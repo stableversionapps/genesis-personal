@@ -24,7 +24,14 @@
           "triggerOnEntry": false,
           "triggerOnExit": true,
           "icon": "🏠",
-          "timeLabel": "7:20 AM"
+          "timeLabel": "7:20 AM",
+          "action": "Double-check your bag for charger, wallet, and keys.",
+          "context": "Morning rush—leave 5 minutes early to catch BART.",
+          "wellbeing": "Eat a quick breakfast before leaving.",
+          "motivation": "Preparedness means a stress-free start!",
+          "localization": "Mission District is safe but busy in the morning.",
+          "transition": "Walk to 16th St Mission BART Station.",
+          "feedback": "Did this tip help you start your day right?"
         },
         {
           "title": "Review Jira tickets on train",
@@ -36,7 +43,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🚇",
-          "timeLabel": "7:35 AM"
+          "timeLabel": "7:35 AM",
+          "action": "Open Jira app and review today’s tickets.",
+          "context": "BART WiFi is spotty—download tickets before boarding.",
+          "wellbeing": "Hold the handrail during the ride.",
+          "motivation": "A productive commute sets the tone for the day!",
+          "localization": "BART trains run every 10 minutes in the morning.",
+          "transition": "Arrive at Salesforce Tower for work.",
+          "feedback": "Did this commute tip help you prepare for standup?"
         },
         {
           "title": "Submit reimbursement before payroll",
@@ -48,7 +62,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏢",
-          "timeLabel": "9:00 AM"
+          "timeLabel": "9:00 AM",
+          "action": "Submit your expense report before noon.",
+          "context": "Payroll closes at 5 PM—don’t miss the deadline.",
+          "wellbeing": "Take a break after submitting paperwork.",
+          "motivation": "Stay on top of expenses for peace of mind!",
+          "localization": "Salesforce Tower has a café on the ground floor.",
+          "transition": "Check your email for client follow-ups.",
+          "feedback": "Did this tip help you stay organized?"
         },
         {
           "title": "Send follow-up email to client",
@@ -60,11 +81,18 @@
           "triggerOnEntry": false,
           "triggerOnExit": true,
           "icon": "📧",
-          "timeLabel": "5:30 PM"
+          "timeLabel": "5:30 PM",
+          "action": "Draft and send the follow-up email within an hour of the call.",
+          "context": "Evenings are quieter—good time for focused work.",
+          "wellbeing": "Stretch and hydrate before leaving the office.",
+          "motivation": "Prompt follow-ups build client trust!",
+          "localization": "WiFi is strong in most downtown offices.",
+          "transition": "Head to Whole Foods for groceries.",
+          "feedback": "Did this tip help you close out your workday?"
         },
         {
           "title": "Buy oat milk + groceries",
-          "description": "You're out of oat milk. Buy before tomorrow's coffee crisis.",
+          "description": "Purchase oat milk to ensure you have enough for tomorrow.",
           "address": "Whole Foods, SOMA",
           "latitude": 37.7821,
           "longitude": -122.407,
@@ -72,7 +100,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🛒",
-          "timeLabel": "6:05 PM"
+          "timeLabel": "6:05 PM",
+          "action": "Check your shopping list and scan the Whole Foods app for deals.",
+          "context": "Evenings are busy—shop quickly to avoid crowds.",
+          "wellbeing": "Carry reusable bags to reduce plastic waste.",
+          "motivation": "Smart shopping saves money and time!",
+          "localization": "Whole Foods accepts all major cards and Apple Pay.",
+          "transition": "Return home and defrost dinner.",
+          "feedback": "Did this shopping tip help you today?"
         },
         {
           "title": "Defrost chicken for dinner",
@@ -84,7 +119,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🍗",
-          "timeLabel": "6:40 PM"
+          "timeLabel": "6:40 PM",
+          "action": "Take chicken out of the freezer as soon as you get home.",
+          "context": "Defrosting takes at least 2 hours—plan ahead.",
+          "wellbeing": "Wash hands after handling raw meat.",
+          "motivation": "A little prep means a smoother dinner!",
+          "localization": "Mission District groceries are open late.",
+          "transition": "Relax and enjoy your evening.",
+          "feedback": "Did this dinner tip help you today?"
         }
       ]
     },

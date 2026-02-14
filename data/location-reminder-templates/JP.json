@@ -24,7 +24,14 @@
           "triggerOnEntry": false,
           "triggerOnExit": true,
           "icon": "☂️",
-          "timeLabel": "7:30 AM"
+          "timeLabel": "7:30 AM",
+          "action": "Check the weather app and pack a folding umbrella.",
+          "context": "Rain can start suddenly in Tokyo, especially in spring and summer.",
+          "wellbeing": "Wear waterproof shoes if rain is likely.",
+          "motivation": "Being prepared ensures a comfortable commute.",
+          "localization": "Umbrellas are sold at every convenience store.",
+          "transition": "Walk to Shibuya Station for your commute.",
+          "feedback": "Did this tip help you stay dry today?"
         },
         {
           "title": "Top up Suica at station",
@@ -36,7 +43,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🚃",
-          "timeLabel": "7:45 AM"
+          "timeLabel": "7:45 AM",
+          "action": "Check your Suica balance and top up at the ticket machine.",
+          "context": "Morning rush means long lines at the machines.",
+          "wellbeing": "Keep your wallet and phone secure in the crowd.",
+          "motivation": "A topped-up card means a smooth commute!",
+          "localization": "Machines have English menus.",
+          "transition": "Board the metro to Marunouchi.",
+          "feedback": "Did this reminder help you avoid delays?"
         },
         {
           "title": "Morning meeting — 5F conference room",
@@ -48,7 +62,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏢",
-          "timeLabel": "9:00 AM"
+          "timeLabel": "9:00 AM",
+          "action": "Arrive 5 minutes early and check the projector setup.",
+          "context": "Meetings in Japan start on time—punctuality is key.",
+          "wellbeing": "Have a bottle of water ready for the meeting.",
+          "motivation": "Preparedness leads to a successful meeting!",
+          "localization": "Reception can help with directions if needed.",
+          "transition": "After the meeting, head to Daimaru for lunch.",
+          "feedback": "Did this meeting tip help you feel ready?"
         },
         {
           "title": "Bento from depachika",
@@ -60,7 +81,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🍱",
-          "timeLabel": "12:00 PM"
+          "timeLabel": "12:00 PM",
+          "action": "Arrive before noon for the best selection. Try a seasonal bento.",
+          "context": "Depachika food halls are busiest at lunchtime.",
+          "wellbeing": "Choose a balanced meal for sustained energy.",
+          "motivation": "A good lunch keeps you productive all afternoon!",
+          "localization": "Staff can help with recommendations in simple English.",
+          "transition": "Return to the office for afternoon work.",
+          "feedback": "Did this lunch tip help you enjoy Japanese food?"
         },
         {
           "title": "Submit monthly report before leaving",
@@ -72,7 +100,14 @@
           "triggerOnEntry": false,
           "triggerOnExit": true,
           "icon": "📋",
-          "timeLabel": "6:00 PM"
+          "timeLabel": "6:00 PM",
+          "action": "Finish your report and double-check for errors before sending.",
+          "context": "Many offices close promptly at 6 PM.",
+          "wellbeing": "Take a short break before your evening plans.",
+          "motivation": "Completing tasks on time means a stress-free evening!",
+          "localization": "Printers and scanners available on each floor.",
+          "transition": "Head to Yurakucho for dinner with colleagues.",
+          "feedback": "Did this reminder help you finish your work on time?"
         },
         {
           "title": "Izakaya with the team",
@@ -84,7 +119,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🍶",
-          "timeLabel": "7:00 PM"
+          "timeLabel": "7:00 PM",
+          "action": "Order a drink and toast with your team. Try yakitori if you haven’t before.",
+          "context": "Izakayas are lively—expect a fun, social atmosphere.",
+          "wellbeing": "Drink water between rounds and eat before drinking.",
+          "motivation": "Celebrate your hard work with your team!",
+          "localization": "Menus often have pictures and some English.",
+          "transition": "Plan your route home or to your next stop.",
+          "feedback": "Did this dinner tip help you enjoy your evening?"
         }
       ]
     },
@@ -108,7 +150,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "⛩️",
-          "timeLabel": "6:30 AM"
+          "timeLabel": "6:30 AM",
+          "action": "Arrive before sunrise for quiet photos. Bring a flashlight for the early walk.",
+          "context": "The shrine is open 24/7, but shops open later.",
+          "wellbeing": "Stay hydrated and wear comfortable shoes.",
+          "motivation": "Start your day with peace and tradition!",
+          "localization": "English signage available. Toilets at the entrance.",
+          "transition": "Take the JR line to Arashiyama for the bamboo grove.",
+          "feedback": "Did this shrine tip help you enjoy Kyoto?"
         },
         {
           "title": "Bamboo grove — morning light",
@@ -120,7 +169,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🎋",
-          "timeLabel": "9:00 AM"
+          "timeLabel": "9:00 AM",
+          "action": "Arrive early for fewer crowds. Bring a camera for the best shots.",
+          "context": "The grove is busiest after 10 AM.",
+          "wellbeing": "Watch your step on uneven paths.",
+          "motivation": "Nature inspires creativity!",
+          "localization": "Nearest station: Saga-Arashiyama.",
+          "transition": "Take a bus or taxi to Kinkaku-ji.",
+          "feedback": "Did this walk help you enjoy Kyoto’s nature?"
         },
         {
           "title": "Kinkaku-ji (Golden Pavilion)",
@@ -132,7 +188,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏯",
-          "timeLabel": "11:00 AM"
+          "timeLabel": "11:00 AM",
+          "action": "Buy your ticket at the gate. Take photos from the designated spots.",
+          "context": "The pavilion is busiest midday—arrive early for fewer crowds.",
+          "wellbeing": "Use sunscreen and wear a hat in summer.",
+          "motivation": "Marvel at Kyoto’s golden beauty!",
+          "localization": "Pamphlets in English, Chinese, Korean.",
+          "transition": "Head to Gion for matcha and sweets.",
+          "feedback": "Did this temple tip help you enjoy your visit?"
         },
         {
           "title": "Matcha + wagashi in Gion",
@@ -144,7 +207,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🍵",
-          "timeLabel": "1:30 PM"
+          "timeLabel": "1:30 PM",
+          "action": "Order a matcha parfait and try seasonal wagashi.",
+          "context": "Gion is famous for traditional tea houses.",
+          "wellbeing": "Enjoy sweets in moderation.",
+          "motivation": "Treat yourself to Kyoto’s flavors!",
+          "localization": "Menus in Japanese and English.",
+          "transition": "Walk to Kiyomizu-dera for sunset views.",
+          "feedback": "Did this tea tip help you enjoy Gion?"
         },
         {
           "title": "Kiyomizu-dera before sunset",
@@ -156,7 +226,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🛕",
-          "timeLabel": "4:00 PM"
+          "timeLabel": "4:00 PM",
+          "action": "Arrive before sunset for the best views. Bring a camera.",
+          "context": "The terrace can get crowded—be patient for photos.",
+          "wellbeing": "Hold the handrail on stairs.",
+          "motivation": "End your day with a stunning view!",
+          "localization": "Audio guides available. Toilets at the entrance.",
+          "transition": "Stroll through Higashiyama’s historic streets.",
+          "feedback": "Did this temple tip help you enjoy Kyoto?"
         },
         {
           "title": "Evening stroll — Higashiyama streets",
@@ -168,7 +245,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏮",
-          "timeLabel": "6:00 PM"
+          "timeLabel": "6:00 PM",
+          "action": "Shop for souvenirs and enjoy the lantern-lit streets.",
+          "context": "Shops close by 7 PM—plan your purchases early.",
+          "wellbeing": "Watch your step on cobblestones.",
+          "motivation": "Soak in Kyoto’s evening charm!",
+          "localization": "English spoken at most souvenir shops.",
+          "transition": "Return to your hotel or next destination.",
+          "feedback": "Did this stroll help you enjoy Kyoto’s history?"
         }
       ]
     }

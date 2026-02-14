@@ -16,7 +16,7 @@
       "stops": [
         {
           "title": "Grab umbrella + Oyster card",
-          "description": "It will rain. It always rains.",
+          "description": "Rain is likely; please carry an umbrella.",
           "address": "Home — Clapham",
           "latitude": 51.4621,
           "longitude": -0.1386,
@@ -24,7 +24,14 @@
           "triggerOnEntry": false,
           "triggerOnExit": true,
           "icon": "☂️",
-          "timeLabel": "7:30 AM"
+          "timeLabel": "7:30 AM",
+          "action": "Check the weather app and pack an umbrella. Make sure your Oyster card is topped up.",
+          "context": "London weather is unpredictable—rain is always possible.",
+          "wellbeing": "Dress in layers and wear comfortable shoes.",
+          "motivation": "Preparedness means less stress on your commute!",
+          "localization": "Contactless cards work on all TfL services.",
+          "transition": "Walk to Clapham Common Tube Station.",
+          "feedback": "Did this tip help you start your day smoothly?"
         },
         {
           "title": "Top up Oyster if under £5",
@@ -36,7 +43,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🚇",
-          "timeLabel": "7:45 AM"
+          "timeLabel": "7:45 AM",
+          "action": "Check your Oyster balance at the gate. Top up at the machine if needed.",
+          "context": "Morning rush hour can mean queues at the machines.",
+          "wellbeing": "Keep your bag zipped and valuables secure.",
+          "motivation": "A topped-up card means no delays!",
+          "localization": "All major cards accepted at top-up machines.",
+          "transition": "Board the Northern line towards Bank.",
+          "feedback": "Did this reminder help you avoid travel hiccups?"
         },
         {
           "title": "10 AM client call — prep notes",
@@ -48,7 +62,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏢",
-          "timeLabel": "9:00 AM"
+          "timeLabel": "9:00 AM",
+          "action": "Review your meeting notes and join the call on time.",
+          "context": "Conference rooms can be busy—arrive a few minutes early.",
+          "wellbeing": "Take a few deep breaths before the meeting.",
+          "motivation": "Preparation leads to confident meetings!",
+          "localization": "WiFi available throughout the office.",
+          "transition": "After the call, check your to-do list for the afternoon.",
+          "feedback": "Did this call reminder help you stay on track?"
         },
         {
           "title": "Post parcel at Royal Mail",
@@ -60,7 +81,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "📦",
-          "timeLabel": "12:30 PM"
+          "timeLabel": "12:30 PM",
+          "action": "Bring your parcel and printed label. Use the self-service kiosk if available.",
+          "context": "Lunch hour is busy—expect a short wait.",
+          "wellbeing": "Wash your hands after handling parcels.",
+          "motivation": "Ticking off errands frees up your evening!",
+          "localization": "Royal Mail accepts prepaid returns at all branches.",
+          "transition": "Return to the office or grab lunch nearby.",
+          "feedback": "Did this errand reminder help you?"
         },
         {
           "title": "Tesco shop — milk, bread, pasta",
@@ -72,7 +100,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🛒",
-          "timeLabel": "6:15 PM"
+          "timeLabel": "6:15 PM",
+          "action": "Check your shopping list and scan your Clubcard for discounts.",
+          "context": "Evenings are busy—shop quickly to avoid crowds.",
+          "wellbeing": "Carry reusable bags to reduce plastic waste.",
+          "motivation": "Smart shopping saves money and time!",
+          "localization": "Tesco Express stores are open late.",
+          "transition": "Head home and prepare dinner.",
+          "feedback": "Did this shopping tip help you today?"
         }
       ]
     },

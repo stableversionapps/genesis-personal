@@ -24,7 +24,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "☕",
-          "timeLabel": "8:30 AM"
+          "timeLabel": "8:30 AM",
+          "action": "Order a coffee and a healthy breakfast. Ensure your laptop and phone are fully charged.",
+          "context": "Five Elephant is popular with remote workers—arrive early for a good spot.",
+          "wellbeing": "Take a short break every hour to stretch and rest your eyes.",
+          "motivation": "A productive morning sets the tone for the day!",
+          "localization": "Staff speak English and German. Card payments accepted.",
+          "transition": "Prepare for your client call by reviewing notes.",
+          "feedback": "Did this café tip help you start your day well?"
         },
         {
           "title": "Client call at 11 — find quiet spot",
@@ -36,11 +43,18 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏢",
-          "timeLabel": "10:45 AM"
+          "timeLabel": "10:45 AM",
+          "action": "Book a meeting room or use noise-canceling headphones.",
+          "context": "Coworking spaces can get noisy before lunch—reserve early if possible.",
+          "wellbeing": "Sit with good posture and keep water nearby.",
+          "motivation": "Clear communication builds client trust!",
+          "localization": "Betahaus has phone booths for private calls.",
+          "transition": "After the call, update your project tracker.",
+          "feedback": "Was this call reminder useful for your workflow?"
         },
         {
           "title": "Lunch at Markthalle Neun",
-          "description": "Thursday is Street Food Thursday. Get there early.",
+          "description": "Thursday is Street Food Thursday. Arrive early to ensure availability.",
           "address": "Markthalle Neun, Kreuzberg",
           "latitude": 52.5006,
           "longitude": 13.4331,
@@ -48,7 +62,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🥙",
-          "timeLabel": "12:30 PM"
+          "timeLabel": "12:30 PM",
+          "action": "Try a new international dish or a local favorite. Bring cash for some vendors.",
+          "context": "Street Food Thursday draws crowds—arrive before noon for the best selection.",
+          "wellbeing": "Choose a balanced meal and stay hydrated.",
+          "motivation": "Exploring new foods sparks creativity!",
+          "localization": "Vegan and vegetarian options widely available.",
+          "transition": "Head to DM for your afternoon errands.",
+          "feedback": "Did you enjoy your lunch experience?"
         },
         {
           "title": "DM run — shampoo + vitamins",
@@ -60,7 +81,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🧴",
-          "timeLabel": "4:00 PM"
+          "timeLabel": "4:00 PM",
+          "action": "Check your shopping list and scan your Payback card at checkout.",
+          "context": "Afternoons are less crowded than evenings at DM.",
+          "wellbeing": "Use hand sanitizer after shopping.",
+          "motivation": "Small errands keep your week running smoothly!",
+          "localization": "Self-checkout available. Most staff speak English.",
+          "transition": "Plan your route for an evening walk.",
+          "feedback": "Did this DM reminder help you stay organized?"
         },
         {
           "title": "Evening walk along the Spree",
@@ -72,7 +100,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🌊",
-          "timeLabel": "6:30 PM"
+          "timeLabel": "6:30 PM",
+          "action": "Wear comfortable shoes and bring a light jacket, especially in spring/autumn.",
+          "context": "Sunset views are best from the bridge. Watch for cyclists on the path.",
+          "wellbeing": "Walking by the river is great for mental health.",
+          "motivation": "A peaceful walk helps you unwind after a busy day!",
+          "localization": "Nearby U-Bahn: Schlesisches Tor. Public toilets at the bridge.",
+          "transition": "Head home or meet friends for dinner nearby.",
+          "feedback": "Did this walk help you relax and recharge?"
         }
       ]
     },
@@ -96,7 +131,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🥨",
-          "timeLabel": "9:00 AM"
+          "timeLabel": "9:00 AM",
+          "action": "Arrive before 11:30 AM for fresh Weißwurst. Bring cash for small vendors.",
+          "context": "Breakfast is a local tradition—expect crowds on weekends.",
+          "wellbeing": "Eat slowly and enjoy the atmosphere. Stay hydrated if it's hot.",
+          "motivation": "Start your day with a Bavarian classic!",
+          "localization": "Menus in German and English. Public toilets nearby.",
+          "transition": "Walk to Marienplatz for the Glockenspiel show.",
+          "feedback": "Did this breakfast tip help you enjoy Munich?"
         },
         {
           "title": "Glockenspiel at Marienplatz",
@@ -108,7 +150,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏰",
-          "timeLabel": "10:45 AM"
+          "timeLabel": "10:45 AM",
+          "action": "Find a spot with a clear view of the tower. Have your camera ready.",
+          "context": "The Glockenspiel is a top tourist attraction—watch for pickpockets in crowds.",
+          "wellbeing": "Wear sunscreen if standing in the sun.",
+          "motivation": "Experience Munich’s history in action!",
+          "localization": "Announcements in German and English.",
+          "transition": "Head to Alte Pinakothek for art and culture.",
+          "feedback": "Did you enjoy the Glockenspiel show?"
         },
         {
           "title": "Alte Pinakothek — €1 on Sundays",
@@ -120,7 +169,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🖼️",
-          "timeLabel": "12:30 PM"
+          "timeLabel": "12:30 PM",
+          "action": "Buy your €1 ticket at the counter. Check for special exhibitions.",
+          "context": "Sundays are busy—arrive early for shorter lines.",
+          "wellbeing": "Museums are quiet spaces—speak softly and take breaks.",
+          "motivation": "Art inspires new perspectives!",
+          "localization": "Audio guides available in multiple languages.",
+          "transition": "Walk or take the tram to the English Garden.",
+          "feedback": "Did this museum tip enhance your visit?"
         },
         {
           "title": "Watch surfers at Eisbachwelle",
@@ -132,7 +188,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🏄",
-          "timeLabel": "3:00 PM"
+          "timeLabel": "3:00 PM",
+          "action": "Find a safe spot to watch. Respect barriers and don’t block the path.",
+          "context": "Surfers are there year-round, but summer is busiest.",
+          "wellbeing": "Stay behind the railings for safety.",
+          "motivation": "See Munich’s adventurous spirit in action!",
+          "localization": "Nearest U-Bahn: Lehel. Food stalls nearby in summer.",
+          "transition": "Walk to the Chinesischer Turm for a beer garden experience.",
+          "feedback": "Did you enjoy watching the surfers?"
         },
         {
           "title": "Beer garden — Chinesischer Turm",
@@ -144,7 +207,14 @@
           "triggerOnEntry": true,
           "triggerOnExit": false,
           "icon": "🍺",
-          "timeLabel": "5:00 PM"
+          "timeLabel": "5:00 PM",
+          "action": "Order a Maß (liter of beer) and try Obatzda with a pretzel. Bring cash.",
+          "context": "Beer gardens are self-service—return your glass for a deposit refund.",
+          "wellbeing": "Drink responsibly and eat before drinking.",
+          "motivation": "Relax and enjoy Bavarian hospitality!",
+          "localization": "Live music on weekends. Large tables for groups.",
+          "transition": "Plan your route back to the hotel or next destination.",
+          "feedback": "Did this beer garden tip help you enjoy Munich?"
         }
       ]
     }

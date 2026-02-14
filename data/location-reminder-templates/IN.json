@@ -1,0 +1,284 @@
+{
+  "regionCode": "IN",
+  "regionName": "India",
+  "flag": "🇮🇳",
+  "seasonalNotes": "Hot summers (Mar–Jun, 40°C+). Monsoon Jul–Sep across most of India. Pleasant winters Oct–Feb (15–25°C). Heavy traffic in metros. Festival seasons: Diwali (Oct/Nov), Holi (Mar).",
+  "personas": [
+    {
+      "id": "in-bangalore-tech",
+      "name": "Bengaluru Work Day",
+      "tagline": "ORR traffic, standup calls, and filter coffee",
+      "description": "Tech worker commuting along ORR from Indiranagar to Bellandur. Standup call, team lunch, Reliance Fresh stop, and chai at the corner stall.",
+      "icon": "💻",
+      "color": "#3B82F6",
+      "city": "Bengaluru",
+      "origin": { "latitude": 12.9784, "longitude": 77.6408, "address": "Indiranagar, Bengaluru" },
+      "stops": [
+        {
+          "title": "Fill water bottle + laptop bag",
+          "description": "Bangalore water is unpredictable. Carry your own.",
+          "address": "Home — Indiranagar",
+          "latitude": 12.9784,
+          "longitude": 77.6408,
+          "radiusMeters": 80,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "💧",
+          "timeLabel": "8:30 AM"
+        },
+        {
+          "title": "Darshini breakfast — idli vada",
+          "description": "Eat before getting stuck in ORR traffic.",
+          "address": "MTR, Indiranagar",
+          "latitude": 12.9786,
+          "longitude": 77.6394,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍛",
+          "timeLabel": "8:45 AM"
+        },
+        {
+          "title": "10 AM standup — prep JIRA board",
+          "description": "Sprint review. Have your ticket status ready.",
+          "address": "Office — Bellandur, ORR",
+          "latitude": 12.9258,
+          "longitude": 77.6764,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏢",
+          "timeLabel": "9:50 AM"
+        },
+        {
+          "title": "Reliance Fresh — rice, dal, onions",
+          "description": "Essentials. Check JioMart prices while you're at it.",
+          "address": "Reliance Fresh, Sarjapur Road",
+          "latitude": 12.9185,
+          "longitude": 77.6802,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛒",
+          "timeLabel": "6:30 PM"
+        },
+        {
+          "title": "Filter coffee at corner stall",
+          "description": "₹20 for the best filter kaapi in the area.",
+          "address": "Coffee stall, Indiranagar Double Road",
+          "latitude": 12.9784,
+          "longitude": 77.6401,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "☕",
+          "timeLabel": "7:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "in-mumbai-day",
+      "name": "Mumbai Local & Meetings",
+      "tagline": "Western line, meetings, and street food",
+      "description": "Commutes via Mumbai local from Andheri to Churchgate. Client meetings, lunch at Swati Snacks, and Linking Road shopping on the way home.",
+      "icon": "🚂",
+      "color": "#EF4444",
+      "city": "Mumbai",
+      "origin": { "latitude": 19.1197, "longitude": 72.8464, "address": "Andheri West, Mumbai" },
+      "stops": [
+        {
+          "title": "Check fast train timing",
+          "description": "Andheri to Churchgate fast: 45 min. Slow: 1 hr 15 min.",
+          "address": "Andheri Station, Mumbai",
+          "latitude": 19.1197,
+          "longitude": 72.8464,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🚂",
+          "timeLabel": "8:00 AM"
+        },
+        {
+          "title": "Client meeting — carry hard copies",
+          "description": "Print 5 copies of the proposal. Client is old school.",
+          "address": "Nariman Point, Mumbai",
+          "latitude": 18.9256,
+          "longitude": 72.8242,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏢",
+          "timeLabel": "10:00 AM"
+        },
+        {
+          "title": "Lunch at Swati Snacks",
+          "description": "Panki, dahi puri, sev usal. Get there before 1 PM.",
+          "address": "Swati Snacks, Nariman Point",
+          "latitude": 18.9332,
+          "longitude": 72.8267,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍽️",
+          "timeLabel": "12:45 PM"
+        },
+        {
+          "title": "Linking Road — birthday gift",
+          "description": "Find something for Priya's birthday. Budget ₹1500.",
+          "address": "Linking Road, Bandra West",
+          "latitude": 19.0645,
+          "longitude": 72.8341,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🎁",
+          "timeLabel": "5:30 PM"
+        },
+        {
+          "title": "Pav bhaji at Juhu Beach",
+          "description": "Evening snack. Extra butter obviously.",
+          "address": "Juhu Beach, Mumbai",
+          "latitude": 19.0948,
+          "longitude": 72.8267,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🔥",
+          "timeLabel": "7:00 PM"
+        }
+      ]
+    },
+    {
+      "id": "in-delhi-family",
+      "name": "Delhi Family Outing",
+      "tagline": "Temples, Chandni Chowk, and India Gate",
+      "description": "A family Sunday in Delhi: morning puja at Akshardham, Chandni Chowk paranthas, India Gate picnic, and Sarojini Nagar shopping.",
+      "icon": "🕌",
+      "color": "#22C55E",
+      "city": "Delhi",
+      "origin": { "latitude": 28.6128, "longitude": 77.2311, "address": "Connaught Place, Delhi" },
+      "stops": [
+        {
+          "title": "Morning darshan at Akshardham",
+          "description": "Open at 9:30 AM. No phones/cameras allowed inside.",
+          "address": "Akshardham Temple, Delhi",
+          "latitude": 28.6127,
+          "longitude": 77.2773,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛕",
+          "timeLabel": "9:30 AM"
+        },
+        {
+          "title": "Paranthas at Paranthe Wali Gali",
+          "description": "Aloo, gobi, rabri parantha. Eat at the original shop.",
+          "address": "Paranthe Wali Gali, Chandni Chowk",
+          "latitude": 28.6562,
+          "longitude": 77.2301,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🫓",
+          "timeLabel": "12:00 PM"
+        },
+        {
+          "title": "India Gate — evening walk",
+          "description": "Ice cream from the vendor. Sit on the lawns.",
+          "address": "India Gate, New Delhi",
+          "latitude": 28.6129,
+          "longitude": 77.2295,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🇮🇳",
+          "timeLabel": "4:00 PM"
+        },
+        {
+          "title": "Sarojini Nagar — kids' clothes",
+          "description": "Bargain hard. Start at half the asking price.",
+          "address": "Sarojini Nagar Market, Delhi",
+          "latitude": 28.5743,
+          "longitude": 77.1994,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "👕",
+          "timeLabel": "5:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "in-chennai-weekend",
+      "name": "Chennai Weekend",
+      "tagline": "Marina Beach, temples, and biryani",
+      "description": "A weekend in Chennai: morning jog at Marina Beach, Kapaleeshwarar Temple, biryani at Buhari's, and a walk in T. Nagar for silk sarees.",
+      "icon": "🏖️",
+      "color": "#F59E0B",
+      "city": "Chennai",
+      "origin": { "latitude": 13.0569, "longitude": 80.2425, "address": "T. Nagar, Chennai" },
+      "stops": [
+        {
+          "title": "Morning walk at Marina Beach",
+          "description": "Go before 7 AM. Sun gets brutal by 9.",
+          "address": "Marina Beach, Chennai",
+          "latitude": 13.0499,
+          "longitude": 80.2824,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏖️",
+          "timeLabel": "6:00 AM"
+        },
+        {
+          "title": "Idli at Murugan Idli Shop",
+          "description": "Soft idli + 3 chutneys. ₹60 for a plate.",
+          "address": "Murugan Idli Shop, T. Nagar",
+          "latitude": 13.0407,
+          "longitude": 80.2338,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍽️",
+          "timeLabel": "8:00 AM"
+        },
+        {
+          "title": "Kapaleeshwarar Temple",
+          "description": "Morning pooja. Remove footwear at the entrance.",
+          "address": "Kapaleeshwarar Temple, Mylapore",
+          "latitude": 13.0339,
+          "longitude": 80.2693,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛕",
+          "timeLabel": "10:00 AM"
+        },
+        {
+          "title": "Biryani at Buhari's",
+          "description": "Chicken biryani + raita. Go before 12:30 or wait 45 min.",
+          "address": "Buhari Hotel, Mount Road",
+          "latitude": 13.0603,
+          "longitude": 80.2572,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍗",
+          "timeLabel": "12:00 PM"
+        },
+        {
+          "title": "Silk saree shopping — T. Nagar",
+          "description": "Nalli Silks or Pothys. Kanjivaram for mom's birthday.",
+          "address": "Nalli Silks, T. Nagar",
+          "latitude": 13.0421,
+          "longitude": 80.2341,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛍️",
+          "timeLabel": "3:00 PM"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "regionCode": "DE",
+  "regionName": "Germany",
+  "flag": "🇩🇪",
+  "seasonalNotes": "Cold winters (−5°C Dec–Feb). Warm summers (25–35°C Jun–Aug). Rainy in spring/autumn. Shops closed Sundays. Christmas markets Nov–Dec.",
+  "personas": [
+    {
+      "id": "de-berlin-freelancer",
+      "name": "Berlin Freelancer Day",
+      "tagline": "Coworking, döner, and a Spree walk",
+      "description": "A freelancer in Kreuzberg: morning café work, coworking space, Markthalle lunch, DM pharmacy run, and evening along the Spree.",
+      "icon": "🐻",
+      "color": "#8B5CF6",
+      "city": "Berlin",
+      "origin": { "latitude": 52.4985, "longitude": 13.4175, "address": "Kreuzberg, Berlin" },
+      "stops": [
+        {
+          "title": "Café work session — charge laptop",
+          "description": "Grab a seat with a plug at Five Elephant.",
+          "address": "Five Elephant, Kreuzberg",
+          "latitude": 52.4937,
+          "longitude": 13.4125,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "☕",
+          "timeLabel": "8:30 AM"
+        },
+        {
+          "title": "Client call at 11 — find quiet spot",
+          "description": "Video call. Need stable WiFi and quiet room.",
+          "address": "Betahaus Coworking, Kreuzberg",
+          "latitude": 52.5024,
+          "longitude": 13.4123,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏢",
+          "timeLabel": "10:45 AM"
+        },
+        {
+          "title": "Lunch at Markthalle Neun",
+          "description": "Thursday is Street Food Thursday. Get there early.",
+          "address": "Markthalle Neun, Kreuzberg",
+          "latitude": 52.5006,
+          "longitude": 13.4331,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🥙",
+          "timeLabel": "12:30 PM"
+        },
+        {
+          "title": "DM run — shampoo + vitamins",
+          "description": "DM on Kottbusser Damm. Check Payback points.",
+          "address": "DM Drogerie, Kreuzberg",
+          "latitude": 52.4941,
+          "longitude": 13.4186,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🧴",
+          "timeLabel": "4:00 PM"
+        },
+        {
+          "title": "Evening walk along the Spree",
+          "description": "Molecule Man to Oberbaumbrücke. Bring a jacket.",
+          "address": "Oberbaumbrücke, Friedrichshain",
+          "latitude": 52.5013,
+          "longitude": 13.4457,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🌊",
+          "timeLabel": "6:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "de-munich-weekend",
+      "name": "Munich Weekend",
+      "tagline": "Marienplatz, beer garden, and English Garden",
+      "description": "A Saturday in Munich: Viktualienmarkt breakfast, Marienplatz, Pinakothek gallery, English Garden surfing, and a beer garden.",
+      "icon": "🍺",
+      "color": "#F59E0B",
+      "city": "Munich",
+      "origin": { "latitude": 48.1351, "longitude": 11.582, "address": "Munich Hauptbahnhof" },
+      "stops": [
+        {
+          "title": "Weißwurst breakfast at Viktualienmarkt",
+          "description": "Traditional: Weißwurst, Brezel, sweet mustard. Before 12 PM.",
+          "address": "Viktualienmarkt, Munich",
+          "latitude": 48.1352,
+          "longitude": 11.5762,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🥨",
+          "timeLabel": "9:00 AM"
+        },
+        {
+          "title": "Glockenspiel at Marienplatz",
+          "description": "Show at 11 AM and 12 PM. Get there 10 min early.",
+          "address": "Marienplatz, Munich",
+          "latitude": 48.1374,
+          "longitude": 11.5755,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏰",
+          "timeLabel": "10:45 AM"
+        },
+        {
+          "title": "Alte Pinakothek — €1 on Sundays",
+          "description": "Dürer, Rubens, da Vinci. Incredible collection.",
+          "address": "Alte Pinakothek, Munich",
+          "latitude": 48.1483,
+          "longitude": 11.5698,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🖼️",
+          "timeLabel": "12:30 PM"
+        },
+        {
+          "title": "Watch surfers at Eisbachwelle",
+          "description": "River surfers in the English Garden. Always a crowd.",
+          "address": "Eisbachwelle, English Garden",
+          "latitude": 48.1437,
+          "longitude": 11.5872,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏄",
+          "timeLabel": "3:00 PM"
+        },
+        {
+          "title": "Beer garden — Chinesischer Turm",
+          "description": "Maß + Obatzda. Cash preferred.",
+          "address": "Chinesischer Turm, English Garden",
+          "latitude": 48.1523,
+          "longitude": 11.5918,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍺",
+          "timeLabel": "5:00 PM"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "regionCode": "KR",
+  "regionName": "South Korea",
+  "flag": "🇰🇷",
+  "seasonalNotes": "Cold dry winters (Dec–Feb, −10°C Seoul). Cherry blossoms late Mar–Apr. Monsoon (장마) late Jun–Jul. Hot humid summers. Autumn foliage late Sep–Nov.",
+  "personas": [
+    {
+      "id": "kr-seoul-office",
+      "name": "Seoul Work & Dinner",
+      "tagline": "Metro, coffee, K-BBQ with friends",
+      "description": "Works at a startup in Gangnam, lives in Hapjeong. Metro commute, specialty coffee, team lunch, and K-BBQ with friends in Hongdae.",
+      "icon": "💻",
+      "color": "#3B82F6",
+      "city": "Seoul",
+      "origin": { "latitude": 37.5495, "longitude": 126.9139, "address": "Hapjeong-dong, Mapo-gu, Seoul" },
+      "stops": [
+        {
+          "title": "T-money card + mask",
+          "description": "Dust season: check AQI. Top up T-money at the CU.",
+          "address": "Hapjeong Station area",
+          "latitude": 37.5495,
+          "longitude": 126.9139,
+          "radiusMeters": 100,
+          "triggerOnEntry": false,
+          "triggerOnExit": true,
+          "icon": "🚇",
+          "timeLabel": "8:00 AM"
+        },
+        {
+          "title": "Coffee at Fritz",
+          "description": "Get the einspänner. ₩6,500 but worth it.",
+          "address": "Fritz Coffee, Mapo-gu",
+          "latitude": 37.5465,
+          "longitude": 126.9192,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "☕",
+          "timeLabel": "8:20 AM"
+        },
+        {
+          "title": "Sprint standup — don't be late",
+          "description": "10 AM sharp. Team lead is strict.",
+          "address": "WeWork Gangnam Station",
+          "latitude": 37.4979,
+          "longitude": 127.0276,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏢",
+          "timeLabel": "9:50 AM"
+        },
+        {
+          "title": "Team lunch — samgyeopsal",
+          "description": "New place on Naver Map. Try the doenjang-jjigae too.",
+          "address": "Gangnam-daero",
+          "latitude": 37.4989,
+          "longitude": 127.0289,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🥩",
+          "timeLabel": "12:30 PM"
+        },
+        {
+          "title": "Pick up Coupang package at CU",
+          "description": "Delivery arrived at the CU locker.",
+          "address": "CU, Gangnam",
+          "latitude": 37.4975,
+          "longitude": 127.0265,
+          "radiusMeters": 80,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "📦",
+          "timeLabel": "6:30 PM"
+        },
+        {
+          "title": "K-BBQ with friends — Hongdae",
+          "description": "Reservation at 7:30 PM. Don't be late.",
+          "address": "Hongdae, Mapo-gu, Seoul",
+          "latitude": 37.5563,
+          "longitude": 126.9233,
+          "radiusMeters": 150,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🔥",
+          "timeLabel": "7:30 PM"
+        }
+      ]
+    },
+    {
+      "id": "kr-busan-daytrip",
+      "name": "Busan Day Trip",
+      "tagline": "Fish market, beach, and temple by the sea",
+      "description": "A day in Busan: Jagalchi sashimi, Haeundae Beach walk, seaside temple, BIFF street food, and Gamcheon Village sunset.",
+      "icon": "🏖️",
+      "color": "#06B6D4",
+      "city": "Busan",
+      "origin": { "latitude": 35.0968, "longitude": 129.0365, "address": "Busan Station" },
+      "stops": [
+        {
+          "title": "Sashimi breakfast at Jagalchi",
+          "description": "2nd floor. Pick your fish, they prep it live.",
+          "address": "Jagalchi Fish Market, Busan",
+          "latitude": 35.0966,
+          "longitude": 129.0303,
+          "radiusMeters": 120,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🐟",
+          "timeLabel": "8:30 AM"
+        },
+        {
+          "title": "Haeundae Beach walk",
+          "description": "Boardwalk stroll. Grab a hotteok from the stall.",
+          "address": "Haeundae Beach, Busan",
+          "latitude": 35.1587,
+          "longitude": 129.1604,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🏖️",
+          "timeLabel": "10:30 AM"
+        },
+        {
+          "title": "Haedong Yonggungsa Temple",
+          "description": "Temple on ocean cliffs. Stunning views.",
+          "address": "Haedong Yonggungsa, Busan",
+          "latitude": 35.1884,
+          "longitude": 129.2234,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🛕",
+          "timeLabel": "12:00 PM"
+        },
+        {
+          "title": "BIFF Square street food",
+          "description": "Hotteok, tteokbokki, fried shrimp. Cheap and amazing.",
+          "address": "BIFF Square, Nampo-dong, Busan",
+          "latitude": 35.0983,
+          "longitude": 129.0291,
+          "radiusMeters": 100,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🍡",
+          "timeLabel": "2:30 PM"
+        },
+        {
+          "title": "Gamcheon Village sunset",
+          "description": "Colorful hillside village. Find the Little Prince statue.",
+          "address": "Gamcheon Culture Village, Busan",
+          "latitude": 35.0975,
+          "longitude": 129.0103,
+          "radiusMeters": 200,
+          "triggerOnEntry": true,
+          "triggerOnExit": false,
+          "icon": "🎨",
+          "timeLabel": "5:00 PM"
+        }
+      ]
+    }
+  ]
+}

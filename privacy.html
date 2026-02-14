@@ -1,304 +1,199 @@
-PRIVACY POLICY FOR GENESIS
-
-Effective Date: December 14, 2025
-Last Updated: December 14, 2025
-
-This Privacy Policy applies to Genesis ("the App"), a personal productivity and AI-powered assistant application developed by StableVersionApps. This policy explains how the App handles your information, what device permissions are required, and how your data remains private and secure.
-
-By using Genesis, you acknowledge and agree to the practices described in this Privacy Policy.
-
-═══════════════════════════════════════════════════════════════════════════
-1. OVERVIEW & CORE PRINCIPLES
-═══════════════════════════════════════════════════════════════════════════
-
-Genesis is built with a LOCAL-FIRST, PRIVACY-FIRST architecture:
-
-✓ ALL data is stored locally on your device using encrypted SQLite databases
-✓ NO cloud synchronization (unless you explicitly enable it in future updates)
-✓ NO data collection or transmission to external servers
-✓ NO tracking, analytics, or behavioral profiling
-✓ NO advertisements or third-party data sharing
-✓ AI processing happens ON-DEVICE using local AI models
-
-Your data is YOUR data. It never leaves your device without your explicit consent.
-
-═══════════════════════════════════════════════════════════════════════════
-2. DATA COLLECTION & STORAGE
-═══════════════════════════════════════════════════════════════════════════
-
-2.1 WHAT DATA IS STORED LOCALLY
-
-The App stores the following types of data locally on your device:
-
-• Notes & Documents: Text notes, document attachments, photos, and files you create or import
-• Tasks & Reminders: Task lists, time-based reminders, location-based reminders, and geofences
-• Voice Recordings: Audio recordings for voice notes (stored locally, never transmitted)
-• AI Conversations: Chat history with local AI assistant (processed on-device)
-• User Settings: App preferences, theme settings, notification preferences
-• Location Data: Geographic coordinates for location-based reminders (stored locally only)
-
-All this data is stored in:
-• SQLite databases (encrypted with SQLCipher when enabled)
-• Device file system (for media attachments)
-• Secure keychain/keystore (for encryption keys and sensitive settings)
-
-2.2 WHAT DATA IS NOT COLLECTED
-
-The App DOES NOT collect, transmit, or store:
-
-✗ Personal identifiable information (PII) beyond what you enter
-✗ Device fingerprints or tracking identifiers
-✗ Usage analytics or behavioral data
-✗ Location history (beyond what's needed for active geofences)
-✗ Voice recordings or transcriptions on external servers
-✗ AI conversation history on external servers
-
-═══════════════════════════════════════════════════════════════════════════
-3. DEVICE PERMISSIONS EXPLAINED
-═══════════════════════════════════════════════════════════════════════════
-
-The App requests the following device permissions to provide its features. All permissions are used exclusively for local processing and functionality.
-
-3.1 CAMERA PERMISSION (android.permission.CAMERA)
-
-Used for:
-• Scanning documents using your device camera
-• Capturing photos to attach to notes and documents
-• Adding images to your personal content
-
-How your data is handled:
-✓ Photos are stored locally on your device
-✓ Images are NOT uploaded to any server
-✓ No image analysis happens on external servers
-✓ You control when the camera is activated
-
-3.2 MICROPHONE PERMISSION (android.permission.RECORD_AUDIO)
-
-Used for:
-• Recording voice notes and audio memos
-• Real-time voice transcription for AI assistant conversations
-• Voice input for note-taking
-
-How your audio is handled:
-✓ Audio recordings are stored locally on your device
-✓ Voice transcription happens ON-DEVICE using Whisper AI models
-✓ No audio is transmitted to cloud services
-✓ You control when recording starts and stops
-
-3.3 LOCATION PERMISSIONS (ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, ACCESS_BACKGROUND_LOCATION)
-
-Used for:
-• Location-based reminders (e.g., "Remind me when I reach the grocery store")
-• Geofencing to trigger notifications when entering/leaving places
-• Displaying location context in notes and documents
-
-How your location is handled:
-✓ Location data is stored locally only
-✓ Used exclusively for reminder triggers
-✓ Background location access is ONLY used for active geofences
-✓ No location tracking or history logging
-✓ No sharing with third parties or advertising networks
-
-3.4 STORAGE PERMISSIONS (READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE)
-
-Used for:
-• Reading and saving document attachments
-• Importing files and images
-• Exporting notes and data backups
-
-How your files are handled:
-✓ Only files you explicitly select are accessed
-✓ No scanning or indexing of your device storage
-✓ Files remain on your device
-
-3.5 NOTIFICATION PERMISSIONS (POST_NOTIFICATIONS)
-
-Used for:
-• Displaying time-based reminder notifications
-• Location-based reminder alerts
-• Task due date notifications
-
-How notifications work:
-✓ All notifications are generated locally on your device
-✓ No push notification servers involved
-✓ You control notification settings in app preferences
-
-3.6 FOREGROUND SERVICE & WAKE LOCK
-
-Used for:
-• Running background location monitoring for geofences
-• Ensuring reminders trigger reliably
-• AI model processing during conversations
-
-═══════════════════════════════════════════════════════════════════════════
-4. AI & MACHINE LEARNING
-═══════════════════════════════════════════════════════════════════════════
-
-Genesis uses LOCAL AI models that run entirely on your device:
-
-4.1 VOICE TRANSCRIPTION (Whisper AI)
-
-• Model: OpenAI Whisper (open-source)
-• Processing: 100% on-device
-• No internet required for transcription
-• Audio never leaves your device
-
-4.2 AI ASSISTANT (LLaMA/Qwen Models)
-
-• Models: Open-source LLaMA, Qwen, or SmolLM variants
-• Processing: 100% on-device
-• No cloud API calls
-• Conversation history stored locally only
-
-4.3 OPTIONAL CLOUD AI FEATURES (Future)
-
-If future versions include optional cloud-based AI features (e.g., GPT-4 integration):
-• These will be EXPLICITLY OPT-IN
-• You will be clearly informed before any data transmission
-• You can use the app without these features
-
-═══════════════════════════════════════════════════════════════════════════
-5. DATA SECURITY
-═══════════════════════════════════════════════════════════════════════════
-
-5.1 ENCRYPTION
-
-• SQLite databases can be encrypted using SQLCipher
-• Sensitive settings stored in iOS Keychain / Android Keystore
-• File attachments protected by device encryption
-
-5.2 DATA ISOLATION
-
-• App data is sandboxed by the operating system
-• No data sharing between apps (except explicit exports)
-• Secure deletion when you delete content
-
-5.3 AUTHENTICATION
-
-• Optional biometric authentication (Face ID / Fingerprint)
-• App-level PIN protection (future feature)
-• No passwords or authentication data sent to servers
-
-═══════════════════════════════════════════════════════════════════════════
-6. THIRD-PARTY SERVICES
-═══════════════════════════════════════════════════════════════════════════
-
-Genesis currently DOES NOT integrate any third-party services for:
-✗ Analytics or tracking
-✗ Crash reporting
-✗ Advertising
-✗ Cloud storage
-✗ Push notifications
-
-If future updates add optional third-party integrations, this policy will be updated with:
-• Clear disclosure of what services are used
-• What data is shared (if any)
-• How to opt out
-
-═══════════════════════════════════════════════════════════════════════════
-7. DATA RETENTION & DELETION
-═══════════════════════════════════════════════════════════════════════════
-
-7.1 YOU CONTROL YOUR DATA
-
-• Delete individual notes, tasks, or conversations anytime
-• Clear all data through app settings
-• Uninstalling the app removes all local data
-
-7.2 NO CLOUD RETENTION
-
-Since Genesis stores everything locally:
-• We have no access to your data
-• No server backups to delete
-• Uninstall = complete data removal
-
-═══════════════════════════════════════════════════════════════════════════
-8. CHILDREN'S PRIVACY
-═══════════════════════════════════════════════════════════════════════════
-
-Genesis does not knowingly collect information from children under 13 (or applicable age in your jurisdiction). If you believe a child has used this app and data should be removed, contact us immediately.
-
-═══════════════════════════════════════════════════════════════════════════
-9. INTERNATIONAL USERS & COMPLIANCE
-═══════════════════════════════════════════════════════════════════════════
-
-Genesis complies with major privacy regulations:
-
-• GDPR (European Union): All data stored locally, right to erasure respected
-• CCPA (California): No data sale or sharing with third parties
-• DPDPA (India): Local-first design ensures data sovereignty
-• Other jurisdictions: Compliant through local-only architecture
-
-═══════════════════════════════════════════════════════════════════════════
-10. CHANGES TO THIS POLICY
-═══════════════════════════════════════════════════════════════════════════
-
-We may update this Privacy Policy to reflect:
-• New features or permissions
-• Legal or regulatory changes
-• Security improvements
-
-Updated policies will be posted in the app and on:
-https://stableversionapps.github.io/genesis-personal/privacy.html
-
-Continued use after updates constitutes acceptance.
-
-═══════════════════════════════════════════════════════════════════════════
-11. YOUR RIGHTS
-═══════════════════════════════════════════════════════════════════════════
-
-You have the right to:
-
-✓ Access your data (it's all on your device)
-✓ Delete your data (through app settings or uninstall)
-✓ Export your data (backup/export features in app)
-✓ Control permissions (through device settings)
-✓ Use the app offline (no internet required)
-
-═══════════════════════════════════════════════════════════════════════════
-12. CONTACT & SUPPORT
-═══════════════════════════════════════════════════════════════════════════
-
-For questions, concerns, or data requests:
-
-Email: stableversionapps@gmail.com
-GitHub: https://github.com/stableversionapps/genesis-essential-assistant
-Website: https://stableversionapps.github.io/genesis-personal/
-
-For bug reports or feature requests:
-https://github.com/stableversionapps/genesis-personal/issues
-
-═══════════════════════════════════════════════════════════════════════════
-13. LEGAL DISCLAIMER
-═══════════════════════════════════════════════════════════════════════════
-
-GENESIS IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
-
-The developer (StableVersionApps) does NOT accept responsibility or liability for:
-• Loss of data due to device failure, user error, or bugs
-• Incorrect AI outputs or transcription errors
-• Missed reminders or notification failures
-• Any damages arising from app use or misuse
-
-USE AT YOUR OWN RISK. You are responsible for maintaining backups of important data.
-
-═══════════════════════════════════════════════════════════════════════════
-14. OPEN SOURCE & TRANSPARENCY
-═══════════════════════════════════════════════════════════════════════════
-
-Genesis uses open-source technologies:
-• React Native / Expo (UI framework)
-• Whisper AI (voice transcription)
-• LLaMA/Qwen (AI models)
-• SQLite/SQLCipher (database)
-
-Source code may be made available for audit and transparency (subject to licensing).
-
-═══════════════════════════════════════════════════════════════════════════
-
-By using Genesis, you agree to this Privacy Policy.
-
-Last Updated: December 14, 2025
-Version: 1.0.0
-
-© 2025 StableVersionApps. All rights reserved.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Genesis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="antialiased text-slate-900 bg-gray-50">
+    <nav class="p-6 bg-white border-b">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold text-primary">Genesis</a>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto p-8">
+        <h1 class="text-3xl font-bold mb-4">Privacy Policy</h1>
+        <p class="text-slate-600 mb-4">Effective Date: December 14, 2025 | Last Updated: February 14, 2026</p>
+
+        <section class="mt-6 bg-white p-6 rounded-lg shadow space-y-4">
+            <p class="text-slate-700">This Privacy Policy describes how Genesis ("the App"), developed by StableVersionApps, handles your information. We built Genesis with one guiding belief: <strong>your data belongs to you</strong>. This policy explains what data the App works with, how it stays on your device, and what permissions are needed — so you can use Genesis with complete confidence.</p>
+            <p class="text-slate-700">By using Genesis, you acknowledge and agree to the practices described in this Privacy Policy.</p>
+
+            <h2 class="text-xl font-semibold mt-6">1. Our Privacy Principles</h2>
+            <p class="text-slate-700">Genesis is built on a <strong>local-first, privacy-first</strong> architecture. Here is what that means in practice:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li>All your data is stored locally on your device using encrypted databases.</li>
+                <li>There is no cloud synchronization unless you explicitly opt in (in future updates).</li>
+                <li>We do not collect, transmit, or store your data on external servers.</li>
+                <li>There is no tracking, analytics, or behavioral profiling.</li>
+                <li>There are no advertisements or third-party data sharing.</li>
+                <li>AI processing runs entirely on your device using local models.</li>
+            </ul>
+            <p class="text-slate-700 font-medium mt-3">Your data never leaves your device without your explicit consent.</p>
+
+            <h2 class="text-xl font-semibold mt-6">2. Data Collection &amp; Storage</h2>
+
+            <h3 class="text-lg font-semibold mt-4">2.1 What Data Is Stored Locally</h3>
+            <p class="text-slate-700">Genesis stores the following types of data on your device to power its features:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li><strong>Notes &amp; Documents:</strong> Text notes, document attachments, photos, and files you create or import.</li>
+                <li><strong>Tasks &amp; Reminders:</strong> Task lists, time-based reminders, location-based reminders, and geofences.</li>
+                <li><strong>Voice Recordings:</strong> Audio recordings for voice notes — stored locally, never transmitted.</li>
+                <li><strong>AI Conversations:</strong> Chat history with the local AI assistant — processed entirely on-device.</li>
+                <li><strong>User Settings:</strong> App preferences, theme settings, and notification preferences.</li>
+                <li><strong>Location Data:</strong> Geographic coordinates used for location-based reminders — stored locally only.</li>
+            </ul>
+            <p class="text-slate-700 mt-3">This data is stored in:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li>SQLite databases (encrypted with SQLCipher when enabled).</li>
+                <li>Device file system (for media attachments).</li>
+                <li>Secure keychain/keystore (for encryption keys and sensitive settings).</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mt-4">2.2 What We Do Not Collect</h3>
+            <p class="text-slate-700">Genesis does not collect, transmit, or store:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li>Personal identifiable information (PII) beyond what you choose to enter.</li>
+                <li>Device fingerprints or tracking identifiers.</li>
+                <li>Usage analytics or behavioral data.</li>
+                <li>Location history beyond active geofence requirements.</li>
+                <li>Voice recordings or transcriptions on external servers.</li>
+                <li>AI conversation history on external servers.</li>
+            </ul>
+
+            <h2 class="text-xl font-semibold mt-6">3. Device Permissions</h2>
+            <p class="text-slate-700">Genesis requests only the permissions necessary to deliver its features. Every permission is used exclusively for local processing — nothing is sent to external servers. Here is a transparent breakdown:</p>
+
+            <h3 class="text-lg font-semibold mt-4">3.1 Camera</h3>
+            <p class="text-slate-600">Used for scanning documents and capturing photos to attach to notes. All images are stored locally on your device. No images are uploaded to any server, and you control when the camera is activated.</p>
+
+            <h3 class="text-lg font-semibold mt-4">3.2 Microphone</h3>
+            <p class="text-slate-600">Used for recording voice notes and real-time voice transcription with the AI assistant. Audio recordings stay on your device. Voice transcription is powered by on-device Whisper AI — no audio is transmitted to cloud services.</p>
+
+            <h3 class="text-lg font-semibold mt-4">3.3 Location</h3>
+            <p class="text-slate-600">Used for location-based reminders and geofencing. Location data is stored locally and used exclusively for triggering reminders. Background location access is only active when you have set up geofence-based reminders. There is no location tracking, history logging, or sharing with third parties.</p>
+
+            <h3 class="text-lg font-semibold mt-4">3.4 Storage</h3>
+            <p class="text-slate-600">Used for reading and saving document attachments, importing files, and exporting backups. Only files you explicitly select are accessed — there is no scanning or indexing of your device storage.</p>
+
+            <h3 class="text-lg font-semibold mt-4">3.5 Notifications</h3>
+            <p class="text-slate-600">Used for time-based reminders, location-based alerts, and task due date notifications. All notifications are generated locally on your device with no push notification servers involved.</p>
+
+            <h3 class="text-lg font-semibold mt-4">3.6 Foreground Service &amp; Wake Lock</h3>
+            <p class="text-slate-600">Used to reliably run background location monitoring for geofences and ensure AI model processing completes during conversations.</p>
+
+            <h2 class="text-xl font-semibold mt-6">4. AI &amp; Machine Learning</h2>
+            <p class="text-slate-700">Genesis uses local AI models that run entirely on your device — providing powerful features without compromising your privacy.</p>
+
+            <h3 class="text-lg font-semibold mt-4">4.1 Voice Transcription</h3>
+            <p class="text-slate-600">Powered by OpenAI Whisper (open-source). Processing is 100% on-device. No internet is required, and audio never leaves your device.</p>
+
+            <h3 class="text-lg font-semibold mt-4">4.2 AI Assistant</h3>
+            <p class="text-slate-600">Powered by open-source LLaMA, Qwen, or SmolLM model variants. Processing is 100% on-device with no cloud API calls. Conversation history is stored locally only.</p>
+
+            <h3 class="text-lg font-semibold mt-4">4.3 Future Cloud AI Features</h3>
+            <p class="text-slate-600">If future versions introduce optional cloud-based AI features (such as advanced model integrations), they will be explicitly opt-in, clearly disclosed before any data is transmitted, and entirely optional — you will always be able to use Genesis without them.</p>
+
+            <h2 class="text-xl font-semibold mt-6">5. Data Security</h2>
+            <p class="text-slate-700">We take the security of your data seriously. Genesis employs multiple layers of protection:</p>
+
+            <h3 class="text-lg font-semibold mt-4">5.1 Encryption</h3>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li>SQLite databases can be encrypted using SQLCipher (industry-standard AES-256).</li>
+                <li>Sensitive settings are stored in the iOS Keychain or Android Keystore.</li>
+                <li>File attachments are protected by your device's built-in encryption.</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mt-4">5.2 Data Isolation</h3>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li>App data is sandboxed by the operating system.</li>
+                <li>No data sharing between apps (except when you explicitly export).</li>
+                <li>Secure deletion is used when you remove content.</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold mt-4">5.3 Authentication</h3>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li>Optional biometric authentication (Face ID / Fingerprint) to protect the App.</li>
+                <li>App-level PIN protection (planned for a future update).</li>
+                <li>No passwords or authentication data is sent to servers.</li>
+            </ul>
+
+            <h2 class="text-xl font-semibold mt-6">6. Third-Party Services</h2>
+            <p class="text-slate-700">Genesis currently does not integrate with any third-party services for analytics, tracking, crash reporting, advertising, cloud storage, or push notifications.</p>
+            <p class="text-slate-700 mt-3">If future updates introduce optional third-party integrations, this policy will be updated with clear disclosure of what services are used, what data (if any) is shared, and how you can opt out.</p>
+
+            <h2 class="text-xl font-semibold mt-6">7. Data Retention &amp; Deletion</h2>
+            <p class="text-slate-700">You have full control over your data at all times:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li>Delete individual notes, tasks, or conversations anytime from within the App.</li>
+                <li>Clear all data through App settings.</li>
+                <li>Uninstalling the App removes all local data from your device.</li>
+            </ul>
+            <p class="text-slate-700 mt-3">Since Genesis stores everything locally, we have no access to your data and there are no server-side backups to manage. Deletion is immediate and permanent.</p>
+
+            <h2 class="text-xl font-semibold mt-6">8. Children's Privacy</h2>
+            <p class="text-slate-700">Genesis is not designed for or directed at children under 13 (or the applicable age in your jurisdiction). We do not knowingly collect information from children. If you believe a child has used the App and you have concerns about data, please <a href="mailto:stableversionapps@gmail.com" class="text-primary underline">contact us</a> and we will assist you promptly.</p>
+
+            <h2 class="text-xl font-semibold mt-6">9. International Compliance</h2>
+            <p class="text-slate-700">Genesis's local-first architecture is inherently aligned with global privacy standards:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li><strong>GDPR (European Union):</strong> All data stored locally with full right to erasure.</li>
+                <li><strong>CCPA (California):</strong> No data sale or sharing with third parties.</li>
+                <li><strong>DPDPA (India):</strong> Local-first design ensures data sovereignty and residency.</li>
+                <li><strong>Other jurisdictions:</strong> Compliant through local-only architecture by design.</li>
+            </ul>
+            <p class="text-slate-700 mt-2">For detailed information about exercising your data rights, see our <a href="gdpr.html" class="text-primary underline">Data Subject Rights</a> page.</p>
+
+            <h2 class="text-xl font-semibold mt-6">10. Changes to This Policy</h2>
+            <p class="text-slate-700">We may update this Privacy Policy to reflect new features, permissions, legal requirements, or security improvements. Updated policies will be posted in the App and at:</p>
+            <p class="text-slate-600 mt-2"><a href="https://stableversionapps.github.io/genesis-personal/privacy.html" class="text-primary underline">stableversionapps.github.io/genesis-personal/privacy.html</a></p>
+            <p class="text-slate-700 mt-2">We encourage you to review this page periodically. Continued use of the App after updates constitutes your acceptance of the revised policy.</p>
+
+            <h2 class="text-xl font-semibold mt-6">11. Your Rights</h2>
+            <p class="text-slate-700">We believe in empowering our users. You have the right to:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li><strong>Access</strong> your data — it is all stored on your device and always accessible to you.</li>
+                <li><strong>Delete</strong> your data — through App settings or by uninstalling.</li>
+                <li><strong>Export</strong> your data — using the built-in backup and export features.</li>
+                <li><strong>Control permissions</strong> — through your device's system settings.</li>
+                <li><strong>Use the App offline</strong> — no internet connection is required.</li>
+            </ul>
+
+            <h2 class="text-xl font-semibold mt-6">12. Important Considerations</h2>
+            <p class="text-slate-700">Genesis is designed to be a reliable productivity companion. A few important things to keep in mind:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li>Since all data is stored locally, we cannot recover data lost due to device failure, accidental deletion, or device resets. We strongly recommend using the App's export and backup features regularly.</li>
+                <li>AI features (transcription, assistant) use open-source models running on-device. While we strive for accuracy, AI outputs should be verified for critical decisions.</li>
+                <li>Reminder and notification delivery depends on your device's operating system, battery settings, and permissions.</li>
+            </ul>
+            <p class="text-slate-700 mt-3">To the fullest extent permitted by applicable law, StableVersionApps shall not be held liable for data loss, AI inaccuracies, missed notifications, or any indirect, incidental, or consequential damages arising from the use of the App. For complete details, please see our <a href="terms.html" class="text-primary underline">Terms &amp; Conditions</a>.</p>
+
+            <h2 class="text-xl font-semibold mt-6">13. Open Source &amp; Transparency</h2>
+            <p class="text-slate-700">Genesis is built on trusted open-source technologies:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li>React Native / Expo (UI framework)</li>
+                <li>Whisper AI (voice transcription)</li>
+                <li>LLaMA / Qwen (AI models)</li>
+                <li>SQLite / SQLCipher (database)</li>
+            </ul>
+            <p class="text-slate-700 mt-3">We believe in transparency. Source code may be made available for community audit (subject to licensing).</p>
+
+            <h2 class="text-xl font-semibold mt-6">14. Contact &amp; Support</h2>
+            <p class="text-slate-700">We are here to help. For questions, concerns, or data requests:</p>
+            <ul class="list-disc list-inside text-slate-600 space-y-1">
+                <li><strong>Email:</strong> <a href="mailto:stableversionapps@gmail.com" class="text-primary underline">stableversionapps@gmail.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/stableversionapps/genesis-personal" class="text-primary underline">github.com/stableversionapps/genesis-personal</a></li>
+                <li><strong>Issues &amp; Feedback:</strong> <a href="https://github.com/stableversionapps/genesis-personal/issues" class="text-primary underline">Report a bug or request a feature</a></li>
+            </ul>
+
+            <p class="text-slate-500 mt-8 text-sm">By using Genesis, you agree to this Privacy Policy. | Last Updated: February 14, 2026 | Version: 1.1.0</p>
+        </section>
+    </main>
+
+    <footer class="border-t p-6 text-center text-sm text-slate-500">
+        &copy; 2026 Genesis. All rights reserved.
+    </footer>
+</body>
+</html>
